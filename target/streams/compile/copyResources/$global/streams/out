@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/saksham/Downloads/bitapi/conf/logback.xml,/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/saksham/Downloads/bitapi/conf/application.conf,/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/saksham/Downloads/bitapi/conf/routes,/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/routes)[0m

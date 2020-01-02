@@ -1,0 +1,152 @@
+2019-07-11 16:38:26,175 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Starting application at 2019-07-11T11:08:26.172723Z.
+2019-07-11 16:38:26,713 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2019-07-11 16:38:26,720 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev) (no global state)
+2019-07-11 16:38:27,676 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-2 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:38:27,712 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-2 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:38:30,490 [ERROR] from application in application-akka.actor.default-dispatcher-2 - 
+
+! @7cf360k7h - Internal server error, for (GET) [/task/Download/abc] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: 38995F1CEA1B19B2; S3 Extended Request ID: nMQ5H4qUMjyEQe8kHCXK+LC/qWCE9wkRDPcY6vC911KQ6itdhjzI701kvV6LdwQ/IAiU4rnDpCo=)]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:351)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:267)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:448)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:446)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:412)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:92)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:92)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:49)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: 38995F1CEA1B19B2; S3 Extended Request ID: nMQ5H4qUMjyEQe8kHCXK+LC/qWCE9wkRDPcY6vC911KQ6itdhjzI701kvV6LdwQ/IAiU4rnDpCo=)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1712)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1367)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1113)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:770)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:744)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:726)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:686)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:668)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:532)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:512)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4914)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4860)
+	at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1467)
+	at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1326)
+	at controllers.s3Service.$anonfun$Download$1(test.scala:120)
+	at play.api.mvc.ActionBuilder.$anonfun$apply$11(Action.scala:368)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:489)
+	at play.api.mvc.ActionBuilderImpl.invokeBlock(Action.scala:487)
+	at play.api.mvc.ActionBuilder$$anon$9.invokeBlock(Action.scala:336)
+	at play.api.mvc.ActionBuilder$$anon$9.invokeBlock(Action.scala:331)
+	at play.api.mvc.ActionBuilder$$anon$10.apply(Action.scala:426)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:98)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:184)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:184)
+	at akka.stream.impl.Transform.apply(TraversalBuilder.scala:158)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:515)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:450)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:443)
+	at akka.stream.scaladsl.RunnableGraph.run(Flow.scala:620)
+	at play.api.libs.streams.Accumulator$.$anonfun$futureToSink$2(Accumulator.scala:262)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:302)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.api.libs.streams.Execution$trampoline$.executeScheduled(Execution.scala:111)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:73)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$DefaultPromise.dispatchOrAddCallback(Promise.scala:312)
+	at scala.concurrent.impl.Promise$DefaultPromise.onComplete(Promise.scala:303)
+	at scala.concurrent.impl.Promise.transformWith(Promise.scala:36)
+	at scala.concurrent.impl.Promise.transformWith$(Promise.scala:34)
+	at scala.concurrent.impl.Promise$DefaultPromise.transformWith(Promise.scala:183)
+	at scala.concurrent.Future.flatMap(Future.scala:301)
+	at scala.concurrent.Future.flatMap$(Future.scala:301)
+	at scala.concurrent.impl.Promise$DefaultPromise.flatMap(Promise.scala:183)
+	at play.api.libs.streams.Accumulator$.$anonfun$futureToSink$1(Accumulator.scala:261)
+	at akka.stream.impl.Transform.apply(TraversalBuilder.scala:158)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:515)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:450)
+	at akka.stream.impl.PhasedFusingActorMaterializer.materialize(PhasedFusingActorMaterializer.scala:443)
+	at akka.stream.scaladsl.RunnableGraph.run(Flow.scala:620)
+	at play.api.libs.streams.SinkAccumulator.run(Accumulator.scala:144)
+	at play.api.libs.streams.SinkAccumulator.run(Accumulator.scala:148)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:441)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+2019-07-11 16:39:00,418 [INFO] from application in application-akka.actor.default-dispatcher-3 - ApplicationTimer demo: Stopping application at 2019-07-11T11:09:00.418270Z after 34s.
+2019-07-11 16:39:00,718 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-7 - ApplicationTimer demo: Starting application at 2019-07-11T11:09:00.718197Z.
+2019-07-11 16:39:00,756 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2019-07-11 16:39:00,759 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev) (no global state)
+2019-07-11 16:39:00,779 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-2 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:39:01,979 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-7 - Explicitly set HTTP header 'Content-Type: application/zip' is ignored, explicit `Content-Type` header is not allowed. Set `HttpResponse.entity.contentType` instead.
+2019-07-11 16:40:56,655 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-4 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:40:58,070 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-8 - Explicitly set HTTP header 'Content-Type: application/zip' is ignored, explicit `Content-Type` header is not allowed. Set `HttpResponse.entity.contentType` instead.
+2019-07-11 16:41:18,139 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-5 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:42:23,626 [INFO] from application in application-akka.actor.default-dispatcher-7 - ApplicationTimer demo: Stopping application at 2019-07-11T11:12:23.626599Z after 203s.
+2019-07-11 16:42:23,919 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - ApplicationTimer demo: Starting application at 2019-07-11T11:12:23.919277Z.
+2019-07-11 16:42:23,948 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2019-07-11 16:42:23,951 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev) (no global state)
+2019-07-11 16:42:23,968 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-3 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:43:10,021 [WARN] from com.amazonaws.auth.profile.internal.BasicProfileConfigLoader in application-akka.actor.default-dispatcher-4 - Your profile name includes a 'profile ' prefix. This is considered part of the profile name in the Java SDK, so you will need to include this prefix in your profile name when you reference this profile from your Java code.
+2019-07-11 16:56:46,612 [INFO] from application in application-akka.actor.default-dispatcher-5 - ApplicationTimer demo: Stopping application at 2019-07-11T11:26:46.612124Z after 863s.
+2019-07-11 16:56:46,889 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-48 - ApplicationTimer demo: Starting application at 2019-07-11T11:26:46.889181Z.
+2019-07-11 16:56:46,941 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-48 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2019-07-11 16:56:46,943 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-48 - Application started (Dev) (no global state)
+2019-07-11 16:56:46,975 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-2 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+2019-07-11 16:56:50,323 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-2 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+2019-07-11 16:56:51,520 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-2 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+2019-07-11 16:58:04,062 [WARN] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-12 - Explicitly set HTTP header 'Content-Type: application/zip' is ignored, explicit `Content-Type` header is not allowed. Set `HttpResponse.entity.contentType` instead.
+2019-07-11 17:00:56,141 [INFO] from application in application-akka.actor.default-dispatcher-4 - ApplicationTimer demo: Stopping application at 2019-07-11T11:30:56.140336Z after 250s.
+2019-07-11 17:00:56,392 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-72 - ApplicationTimer demo: Starting application at 2019-07-11T11:30:56.391859Z.
+2019-07-11 17:00:56,419 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-72 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2019-07-11 17:00:56,420 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-72 - Application started (Dev) (no global state)
+2019-07-11 17:00:56,445 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-3 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+2019-07-11 17:00:58,223 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-3 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+2019-07-11 17:00:59,038 [WARN] from com.amazonaws.services.s3.AmazonS3Client in application-akka.actor.default-dispatcher-3 - No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.

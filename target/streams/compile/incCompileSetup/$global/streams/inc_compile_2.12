@@ -1,0 +1,1086 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/Module.class
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/s3Service.class
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/JsonDownload.class
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/filters/ExampleFilter.class
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/ApplicationTimer.class
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/AtomicCounter.class
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/Counter.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/ReverseJsonDownload.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/Reverses3Service.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/javascript/ReverseJsonDownload.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/javascript/Reverses3Service.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/Routes.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/RoutesPrefix$.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/RoutesPrefix.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/index$.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/index.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/main$.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/main.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/welcome$.class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/welcome.class
+binary dependencies:
+42 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> /Users/saksham/.ivy2/cache/com.google.inject/guice/jars/guice-4.2.2.jar
+/Users/saksham/Downloads/bitapi/app/Module.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.11.555.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.11.555.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.google.inject/guice/jars/guice-4.2.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.22.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.8.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.22.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.11.555.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.11.555.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.google.inject/guice/jars/guice-4.2.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.22.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.8.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.22.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> /Users/saksham/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.22.jar
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> /Users/saksham/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> /Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> /Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala
+/Users/saksham/Downloads/bitapi/app/Module.scala -> /Users/saksham/Downloads/bitapi/app/services/Counter.scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/Downloads/bitapi/app/controllers/test.scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/Downloads/bitapi/app/controllers/try.scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> /Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Module
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> controllers.s3Service
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> controllers.JsonDownload
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> filters.ExampleFilter
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> services.ApplicationTimer
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> services.AtomicCounter
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> services.Counter
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseJsonDownload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers.Reverses3Service
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseJsonDownload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.Reverses3Service
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> router.Routes
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> views.html.index
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> views.html.index$
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> views.html.main
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> views.html.main$
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> views.html.welcome
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> views.html.welcome$
+used names:
+805 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/Module.scala -> ?0
+/Users/saksham/Downloads/bitapi/app/Module.scala -> AbstractModule
+/Users/saksham/Downloads/bitapi/app/Module.scala -> AnnotatedBindingBuilder
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Any
+/Users/saksham/Downloads/bitapi/app/Module.scala -> ApplicationTimer
+/Users/saksham/Downloads/bitapi/app/Module.scala -> AtomicCounter
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Class
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Clock
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Counter
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Module
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Nothing
+/Users/saksham/Downloads/bitapi/app/Module.scala -> ScopedBindingBuilder
+/Users/saksham/Downloads/bitapi/app/Module.scala -> T
+/Users/saksham/Downloads/bitapi/app/Module.scala -> Unit
+/Users/saksham/Downloads/bitapi/app/Module.scala -> asEagerSingleton
+/Users/saksham/Downloads/bitapi/app/Module.scala -> bind
+/Users/saksham/Downloads/bitapi/app/Module.scala -> com
+/Users/saksham/Downloads/bitapi/app/Module.scala -> google
+/Users/saksham/Downloads/bitapi/app/Module.scala -> inject
+/Users/saksham/Downloads/bitapi/app/Module.scala -> java
+/Users/saksham/Downloads/bitapi/app/Module.scala -> services
+/Users/saksham/Downloads/bitapi/app/Module.scala -> systemDefaultZone
+/Users/saksham/Downloads/bitapi/app/Module.scala -> time
+/Users/saksham/Downloads/bitapi/app/Module.scala -> to
+/Users/saksham/Downloads/bitapi/app/Module.scala -> toInstance
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> +
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> -
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ->
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> <byname>
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ==
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> >
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> A
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> AWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> AWS_ACCESS_KEY
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> AWS_SECRET_KEY
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Action
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ActionBuilder
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> AmazonS3Client
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Any
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> AnyContent
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Array
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ArrowAssoc
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> B
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> BaseController
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> BasicAWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Boolean
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Buffer
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> BufferedInputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Byte
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ByteArrayInputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ByteString
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ByteStringBuilder
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> C
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> CONTENT_DISPOSITION
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> CONTENT_TYPE
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Codec
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ControllerComponents
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Download
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Exception
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ExecutionContext
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> File
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> FileOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> FiniteDuration
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Function1
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Future
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Implicits
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Inject
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> InputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> InputStreamReader
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Int
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> InternalServerError
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> JavaConverters
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> List
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ListNextBatchOfObjectsRequest
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ListObjectsRequest
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Long
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Mat2
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> MultipleFileUpload
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> NotUsed
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Nothing
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Object
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ObjectListing
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Ok
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> OutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Predef
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Region
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Request
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Result
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> S3Object
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> S3ObjectInputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> S3ObjectSummary
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Source
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Status
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> StatusCodes
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> StreamConverters
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> String
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> StringContext
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> T
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> TransferManager
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> TransferManagerBuilder
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Tuple2
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> U
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Unit
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> WSClient
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> Writeable
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ZipEntry
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ZipOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> _$2
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> a
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> akka
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> amazonS3Client
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> amazonaws
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> api
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> appendPath
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> apply
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> arr
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> asOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> asScalaBuffer
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> auth
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> bucketName
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> buffer
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> builder
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> chunked
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> client
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> close
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> closeEntry
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> collection
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> com
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> concurrent
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> controllerComponents
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> controllers
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> defaultTransferManager
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> doWhile$1
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> download
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> fileByteData
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> file_name
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> flag
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> foreach
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> getKey
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> getObject
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> getObjectContent
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> getObjectSummaries
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> global
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> google
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> http
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> in
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> inject
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> io
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> isTruncated
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> java
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> key
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> len
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> length
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> libs
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> listNextBatchOfObjects
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> listObjects
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> listObjectsRequest
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ll
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> mapMaterializedValue
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> model
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> mvc
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> objectSummary
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> objects
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> os
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> package
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> path
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> play
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> println
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> putNextEntry
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> read
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> regions
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> s
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> s3
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> s3Service
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> sBuffer
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> scala
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> scaladsl
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> services
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> split
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> stage
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> stream
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> toList
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> transfer
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> uploadDirectory
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> utf_8
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> util
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> wBytes
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> wString
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> while$1
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> withBucketName
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> withDelimiter
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> withHeaders
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> withPrefix
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> write
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ws
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> yourAWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> ze
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> zip
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> zipSource
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> zos
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> +
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ->
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> <byname>
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> >
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> A
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> AWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> AWS_ACCESS_KEY
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> AWS_SECRET_KEY
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Action
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ActionBuilder
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> AmazonS3Client
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Any
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> AnyContent
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Array
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ArrowAssoc
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> B
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> BaseController
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> BasicAWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Boolean
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> BufferedInputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Byte
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ByteArrayInputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ByteString
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ByteStringBuilder
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> C
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> CONTENT_DISPOSITION
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> CONTENT_TYPE
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Codec
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ControllerComponents
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ExecutionContext
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> File
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> FileOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> FiniteDuration
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Function1
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Future
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Implicits
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Inject
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> InputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> InputStreamReader
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Int
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> JavaConverters
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> JsonDownload
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> List
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ListNextBatchOfObjectsRequest
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ListObjectsRequest
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Mat2
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> NotUsed
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Nothing
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Object
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ObjectListing
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ObjectMetadata
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Ok
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> OutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Predef
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> PutObjectRequest
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> PutObjectResult
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Region
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Request
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Result
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Source
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Status
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> StatusCodes
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> StreamConverters
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> String
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> StringContext
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> T
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Tuple2
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> U
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Unit
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> WSClient
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> Writeable
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ZipEntry
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ZipOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> _$2
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> akka
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> amazonS3Client
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> amazonaws
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> api
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> apply
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> asOutputStream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> auth
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> bucketName
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> buffer
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> builder
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> chunked
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> client
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> close
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> closeEntry
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> collection
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> com
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> concurrent
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> controllerComponents
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> controllers
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> count
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> fileByteData1
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> foreach
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> getBytes
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> global
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> google
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> http
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> immutable
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> in
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> inject
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> io
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> java
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> js
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> len
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> libs
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> listJson
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> mapMaterializedValue
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> model
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> mvc
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> os
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> play
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> println
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> putNextEntry
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> putObject
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> read
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> regions
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> s
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> s3
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> scala
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> scaladsl
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> services
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> stage
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> stream
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> transfer
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> utf_8
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> util
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> wBytes
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> wString
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> while$1
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> withHeaders
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> write
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ws
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> yourAWSCredentials
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> ze
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> zip
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> zipSource
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> zos
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> ->
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> A
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Any
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> ArrowAssoc
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> B
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> ExampleFilter
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> ExecutionContext
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Filter
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Function1
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Future
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Materializer
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Nothing
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Object
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Predef
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> RequestHeader
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Result
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> S
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> String
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> Tuple2
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> _root_
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> akka
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> api
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> apply
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> concurrent
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> exec
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> filters
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> inject
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> javax
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> map
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> mat
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> mvc
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> nextFilter
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> play
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> requestHeader
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> result
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> scala
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> stream
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> withHeaders
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> -
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> <byname>
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Any
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> ApplicationLifecycle
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> ApplicationTimer
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Clock
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Function0
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Future
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Instant
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Logger
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Long
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> MarkerContext
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> NoMarker
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Nothing
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Object
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Predef
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> String
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> StringContext
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> T
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> Unit
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> _$1
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> addStopHook
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> api
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> appLifecycle
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> clock
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> concurrent
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> getEpochSecond
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> info
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> inject
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> instant
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> java
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> javax
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> play
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> runningTime
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> s
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> scala
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> services
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> start
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> stop
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> successful
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> time
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> <init>
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> AtomicCounter
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> AtomicInteger
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> Counter
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> Int
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> Object
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> atomic
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> atomicCounter
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> concurrent
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> getAndIncrement
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> inject
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> java
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> javax
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> scala
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> services
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> util
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> +
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <byname>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Asset
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Assets
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Boolean
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Call
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Object
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> PathBindable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> ReverseJsonDownload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> Reverses3Service
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _defaultPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _prefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> _root_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> bindableString
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> core
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> dynamicString
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> endsWith
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> implicitly
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> package
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> path
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> routing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> unbind
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> +
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <byname>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Asset
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Assets
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Boolean
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Object
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> PathBindable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseJsonDownload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Reverses3Service
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _defaultPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _prefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _root_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> bindableString
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> endsWith
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> implicitly
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascript
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascriptUnbind
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> routing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> +
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> ++
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> :+
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> <byname>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> <refinement>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> ?0
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> A
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> A1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> AbstractPartialFunction
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Action
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> AnyContent
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Asset
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Assets
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> B
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> B1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Boolean
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> CanBuildFrom
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> ClassLoader
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Coll
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Download
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> DynamicPart
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Function1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Function2
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> GenTraversableOnce
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> GeneratedRouter
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Handler
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> HandlerDef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> HandlerInvoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> HandlerInvokerFactory
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> HttpErrorHandler
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> JsonDownload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> JsonDownload_0
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> List
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Nil
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> None
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Object
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Option
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> P
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Param
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> ParamsExtractor
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> PartialFunction
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> PathBindable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> PathPart
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> PathPattern
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Product
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> RequestHeader
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Route
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> RouteParams
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Router
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Routes
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> RoutesPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Seq
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Serializable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> StaticPart
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> T0
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> T1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> T2
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> T3
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> That
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Tuple3
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> Unit
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> _$1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> addPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> apply
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> asInstanceOf
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> bindableString
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> call
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> canBuildFrom
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> collection
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> concatPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_JsonDownload_s3FileUpload3_invoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_JsonDownload_s3FileUpload3_route
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_JsonDownload_zip12_invoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_JsonDownload_zip12_route
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_s3Service_Download1_invoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_s3Service_Download1_route
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_s3Service_upload0_invoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> controllers_s3Service_upload0_route
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> core
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> createInvoker
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> defaultPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> e
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> empty
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> endsWith
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> errorHandler
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> fakeValue
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> foldLeft
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> fromPath
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> get
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> getClass
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> getClassLoader
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> http
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> immutable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> isEmpty
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> isInstanceOf
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> package
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> params
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> passThrough
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> path
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> prefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> router
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> routing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> s
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> s3FileUpload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> s3Service
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> s3Service_1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> setPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> unapply
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> unary_!
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> unchecked
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> upload
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> zip1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> AnyRef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Function0
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Object
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> RoutesPrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> Unit
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> _prefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> _prefix_=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> byNamePrefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> p
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> prefix
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> router
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> A
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Appendable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> BaseScalaTemplate
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> ClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Function1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> HtmlFormat
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> JavaScript
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> PlayMagic
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Seq
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Template1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> TwirlFeatureImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> TwirlHelperImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Txt
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> Xml
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> _$7
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> _display_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> _root_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> apply
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> collection
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> data
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> i18n
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> index
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> main
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> materializeClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> message
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> models
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> package
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> raw
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> reflect
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> templates
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> twirl
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> views
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> welcome
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> A
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Appendable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> BaseScalaTemplate
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> ClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Function1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> HtmlFormat
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> JavaScript
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> PlayMagic
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Seq
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Template2
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> TwirlFeatureImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> TwirlHelperImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Txt
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> Xml
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> _$7
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> _display_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> _root_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> apply
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> collection
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> content
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> data
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> i18n
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> main
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> materializeClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> models
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> package
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> raw
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> reflect
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> templates
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> title
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> twirl
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> views
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> <init>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> <repeated>
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> A
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Any
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Appendable
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> BaseScalaTemplate
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Class
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> ClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Function1
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Function2
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> HtmlFormat
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> JavaScript
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Nothing
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> PlayMagic
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> PlayVersion
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Predef
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Seq
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> String
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> T
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Template2
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> TwirlFeatureImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> TwirlHelperImports
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Txt
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> Xml
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> _$7
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> _display_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> _root_
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> api
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> apply
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> collection
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> controllers
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> core
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> current
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> data
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> defining
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> format
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> html
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> i18n
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> materializeClassTag
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> message
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> models
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> mvc
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> package
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> play
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> raw
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> reflect
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> scala
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> style
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> templates
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> twirl
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> views
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> welcome
+product stamps:
+21 items
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/Module.class -> lastModified(1562844652830)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/JsonDownload.class -> lastModified(1562844652830)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/ReverseJsonDownload.class -> lastModified(1562844652832)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/Reverses3Service.class -> lastModified(1562844652832)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/javascript/ReverseJsonDownload.class -> lastModified(1562844652832)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/javascript/Reverses3Service.class -> lastModified(1562844652832)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/controllers/s3Service.class -> lastModified(1562844652830)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/filters/ExampleFilter.class -> lastModified(1562844652831)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/Routes$$anonfun$routes$1.class -> lastModified(1562844652833)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/Routes.class -> lastModified(1562844652833)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/RoutesPrefix$.class -> lastModified(1562844652834)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/router/RoutesPrefix.class -> lastModified(1562844652833)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/ApplicationTimer.class -> lastModified(1562844652831)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/AtomicCounter.class -> lastModified(1562844652832)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/services/Counter.class -> lastModified(1562844652831)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/index$.class -> lastModified(1562844652834)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/index.class -> lastModified(1562844652834)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/main$.class -> lastModified(1562844652835)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/main.class -> lastModified(1562844652835)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/welcome$.class -> lastModified(1562844652836)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/classes/views/html/welcome.class -> lastModified(1562844652835)
+source stamps:
+14 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> hash(a8f652f7a384a6ee34d85213e9dcfc32993472a6)
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> hash(4061b871be71771fa38809961ee0f666376cefc6)
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> hash(4a981a27e063df62ed94b83c9c518173716dc499)
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> hash(74e5f8debeeb541ac14bfbb8b28f07e9312adbe7)
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> hash(26bb371c94cb85707c6d24a1ed27a756ffb1e432)
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> hash(239fb8de8de8347a33cae32c41f6d0b175986be2)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> hash(088480817b5ea5e230df0c31657644cf28c87887)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> hash(de061c0715aceb4b1c51e7544a91c1385178f3aa)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/routes.java -> hash(659622f195740a412c806bb4b56ba9e2f366b82d)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> hash(e53ab7bff7a55f824b88a3d2f82f8e6d903a9ff0)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> hash(0e5e7a66e193e303d595747a4183d55542933e2b)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> hash(cf3d6b06babf0f418c48f2175a9591ffd1bc716b)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> hash(2774318a9717841b83475bee8d5a8491f016d0b0)
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> hash(cd42570c8ba75b41b886907d3ecdfb8d331846d5)
+binary stamps:
+10 items
+/Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.11.555.jar -> lastModified(1558126547000)
+/Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.11.555.jar -> lastModified(1558126540000)
+/Users/saksham/.ivy2/cache/com.google.inject/guice/jars/guice-4.2.2.jar -> lastModified(1540834171000)
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.22.jar -> lastModified(1554278765000)
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.8.jar -> lastModified(1553168199000)
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.22.jar -> lastModified(1554279098000)
+/Users/saksham/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.7.2.jar -> lastModified(1556228411000)
+/Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar -> lastModified(1556228269000)
+/Users/saksham/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar -> lastModified(1547661592000)
+/Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+class names:
+10 items
+/Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-core/jars/aws-java-sdk-core-1.11.555.jar -> com.amazonaws.auth.BasicAWSCredentials
+/Users/saksham/.ivy2/cache/com.amazonaws/aws-java-sdk-s3/jars/aws-java-sdk-s3-1.11.555.jar -> com.amazonaws.services.s3.model.PutObjectRequest
+/Users/saksham/.ivy2/cache/com.google.inject/guice/jars/guice-4.2.2.jar -> com.google.inject.Inject
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.22.jar -> akka.util.ByteString
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.8.jar -> akka.http.scaladsl.model.StatusCodes
+/Users/saksham/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.22.jar -> akka.stream.Materializer
+/Users/saksham/.ivy2/cache/com.typesafe.play/play-ws_2.12/jars/play-ws_2.12-2.7.2.jar -> play.api.libs.ws.WSClient
+/Users/saksham/.ivy2/cache/com.typesafe.play/play_2.12/jars/play_2.12-2.7.2.jar -> play.api.templates.PlayMagic$
+/Users/saksham/.ivy2/cache/com.typesafe.play/twirl-api_2.12/jars/twirl-api_2.12-1.4.0.jar -> play.twirl.api.Template2
+/Users/saksham/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.collection.Seq
+internal apis:
+14 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwGoy7TgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAlc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwCvmFonQABm5vdGlmeXNxAH4ADEwDaD90AAxiaW5kTGlzdGVuZXJzcQB+AAyun6WOdAAEd2FpdHNxAH4ADK6s+GJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMLXWqjnQAFnJlcXVlc3RTdGF0aWNJbmplY3Rpb25zcQB+AAzdjxN8dAAOcmVxdWlyZUJpbmRpbmdzcQB+AAwt520pdAAGYmluZGVyc3EAfgAMpdJd4HQABmVxdWFsc3NxAH4ADMyWObd0AAtnZXRQcm92aWRlcnNxAH4ADNsT8fp0AAxhc0luc3RhbmNlT2ZzcQB+AAzmglzIdAAJYmluZFNjb3Blc3EAfgAMf6V4HXQADHN5bmNocm9uaXplZHNxAH4ADN5p0NB0AARiaW5kc3EAfgAM/cgNLHQADSRpc0luc3RhbmNlT2ZzcQB+AAxdDXpWdAAJY29uZmlndXJlc3EAfgAMn9UvhXQAEHJlcXVlc3RJbmplY3Rpb25zcQB+AAwdyNeYdAAJbm90aWZ5QWxsc3EAfgAMwoFFgnQACGFkZEVycm9yc3EAfgAMYjs24nQADGlzSW5zdGFuY2VPZnNxAH4ADGg2GtV0AA9iaW5kSW50ZXJjZXB0b3JzcQB+AAzRRLRrdAAGPGluaXQ+c3EAfgAMklECInQAEmdldE1lbWJlcnNJbmplY3RvcnNxAH4ADPKaILh0AAI9PXNxAH4ADPoOkr90AAVjbG9uZXNxAH4ADMBjIWV0AAxiaW5kQ29uc3RhbnRzcQB+AAwGSXEkdAAIdG9TdHJpbmdzcQB+AAya5ApMdAACIT1zcQB+AAy8F25DdAAIZ2V0Q2xhc3NzcQB+AAwl1YNbdAAHaW5zdGFsbHNxAH4ADMbBE1N0AAxjdXJyZW50U3RhZ2VzcQB+AAycjMsudAACbmVzcQB+AAza8dpadAACZXFzcQB+AAw4pNdPdAAGTW9kdWxlc3EAfgAMBp6Xr3QADmNvbnZlcnRUb1R5cGVzc3EAfgAMLDrUUnQAAiMjc3EAfgAMIUVC23QACGZpbmFsaXplc3EAfgAMvRJ+xnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AYXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBPdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AeXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBhTAAJaW5oZXJpdGVkcQB+AGFMAAdwYXJlbnRzcQB+AGF4cQB+AH5zcQB+AHl1cQB+AFwAAAAAc3EAfgB5dXEAfgBcAAAAAHNxAH4AeXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AfXQADkFic3RyYWN0TW9kdWxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB9c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANjb21zcQB+AJZ0AAZnb29nbGVzcQB+AJZ0AAZpbmplY3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Al3NxAH4AinQABk1vZHVsZXEAfgCQc3EAfgCKdAAGT2JqZWN0c3EAfgCOc3EAfgCRdXEAfgCUAAAAA3NxAH4AlnQABGphdmFzcQB+AJZ0AARsYW5ncQB+AJ9zcQB+AIp0AANBbnlzcQB+AI5zcQB+AJF1cQB+AJQAAAACc3EAfgCWdAAFc2NhbGFxAH4An3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSo9lL3o4Sm7jTYUhPp3PwymTRypg==
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtEoTMQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAVzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDGscqcdAANZmlsZU1pbWVUeXBlc3NxAH4AC03T+/10AA9yZXF1ZXN0MnNlc3Npb25zcQB+AAvCsZvedAALbWVzc2FnZXNBcGlzcQB+AAsWOcZHdAAOc3VwcG9ydGVkTGFuZ3NzcQB+AAvrRYfndAANcmVxdWVzdDJmbGFzaHVxAH4ACQAAAR1zcQB+AAt1Up9CdAAMUmVzZXRDb250ZW50c3EAfgAL/FLrK3QADU5vdEFjY2VwdGFibGVzcQB+AAtc0g1gdAARVGVtcG9yYXJ5UmVkaXJlY3RzcQB+AAu6ETnTdAAIc2VuZEZpbGVzcQB+AAveLlCzdAAIbmV3Rmxhc2hzcQB+AAuOKJj4dAAPYWRkaW5nVG9TZXNzaW9uc3EAfgALpBACoXQABkxvY2tlZHNxAH4AC6I4sOR0AAZub3RpZnlzcQB+AAsZgGbsdAAERlJPTXNxAH4AC3oUNIt0ABBDT05URU5UX0xBTkdVQUdFc3EAfgALIQPTuHQAB0NSRUFURURzcQB+AAu3DDOndAAHdW5hcHBseXNxAH4AC5vPO910ABBUT09fTUFOWV9SRVFVRVNUc3EAfgALGqrBwHQAD1hfRlJBTUVfT1BUSU9OU3NxAH4AC3/AuPR0AAdXQVJOSU5Hc3EAfgALD+0LG3QAD1BheW1lbnRSZXF1aXJlZHNxAH4AC5MmRed0AAhDT05USU5VRXNxAH4ACxUvCpx0AARib2R5c3EAfgALEPQDsnQABVhIVE1Mc3EAfgALiaaP9nQAC1NFVF9DT09LSUUyc3EAfgALwvtpfHQACEhUVFBfMV8xc3EAfgALCmPNlHQAFWJha2VDb29raWVzJGRlZmF1bHQkMnNxAH4AC7DCc8Z0ABNDT05URU5UX0RJU1BPU0lUSU9Oc3EAfgALJHfDQXQADENPTlRFTlRfVFlQRXNxAH4AC5bscch0AAZCSU5BUllzcQB+AAsqu2HddAAEd2FpdHNxAH4AC49UXPp0ABxBQ0NFU1NfQ09OVFJPTF9BTExPV19NRVRIT0RTc3EAfgAL75fTMnQACkJhZEdhdGV3YXlzcQB+AAtm8WfXdAAQTWV0aG9kTm90QWxsb3dlZHNxAH4AC0XFKkt0AA5Ub29NYW55UmVxdWVzdHNxAH4AC1POlfx0AApVU0VSX0FHRU5Uc3EAfgALofLWBnQAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDJzcQB+AAvaMaPedAAESE9TVHNxAH4ACzOE/3d0AAtDT05URU5UX01ENXNxAH4ACwV5IQN0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC/ETk2J0AAdDcmVhdGVkc3EAfgALaHQVM3QADSRhc0luc3RhbmNlT2ZzcQB+AAuxAwLJdAAQWF9GT1JXQVJERURfUE9SVHNxAH4AC4paO6d0ABJTd2l0Y2hpbmdQcm90b2NvbHNzcQB+AAuo8iLPdAAKSmF2YVNjcmlwdHNxAH4AC0rjqIB0AAtCQURfUkVRVUVTVHNxAH4AC4FydmR0AA5Ob3RJbXBsZW1lbnRlZHNxAH4AC7HTRBZ0AAxNQVhfRk9SV0FSRFNzcQB+AAuyoLdodAAOY29weSRkZWZhdWx0JDVzcQB+AAsOHGB2dAAQWF9GT1JXQVJERURfSE9TVHNxAH4AC4Cbf0B0ABdDT05URU5UX1NFQ1VSSVRZX1BPTElDWXNxAH4ACww1UlR0AANDU1NzcQB+AAscvqr6dAAhWF9QRVJNSVRURURfQ1JPU1NfRE9NQUlOX1BPTElDSUVTc3EAfgALunqoWnQACFNlZU90aGVyc3EAfgALNJ5kGnQAB1RSQUlMRVJzcQB+AAuHbeFmdAASUFJPWFlfQVVUSEVOVElDQVRFc3EAfgALuewjMnQADUFVVEhPUklaQVRJT05zcQB+AAtKLjxwdAADWE1Mc3EAfgALmqmCr3QADUNBQ0hFX0NPTlRST0xzcQB+AAtIO0/qdAAVYmFrZUNvb2tpZXMkZGVmYXVsdCQxc3EAfgALYQLdm3QAG05vbkF1dGhvcml0YXRpdmVJbmZvcm1hdGlvbnNxAH4ACx3Nesd0AA9OT1RfSU1QTEVNRU5URURzcQB+AAsLmlwsdAAWWF9DT05URU5UX1RZUEVfT1BUSU9OU3NxAH4ACz606LR0AAxwcm9kdWN0QXJpdHlzcQB+AAt2P68CdAAGZXF1YWxzc3EAfgALxdgoI3QAEFBBWU1FTlRfUkVRVUlSRURzcQB+AAvn88MCdAAIQWNjZXB0ZWRzcQB+AAuWhWckdAALUkVUUllfQUZURVJzcQB+AAtKr9+EdAASUmVkaXJlY3QkZGVmYXVsdCQyc3EAfgALnF/vBXQABEpTT05zcQB+AAu1PaZodAAIUmVkaXJlY3RzcQB+AAt4BItXdAATUFJFQ09ORElUSU9OX0ZBSUxFRHNxAH4AC6ysOAF0AA5QYXJ0aWFsQ29udGVudHNxAH4AC1VCidl0ABRVbnN1cHBvcnRlZE1lZGlhVHlwZXNxAH4AC6KTUOV0AAhDT05GTElDVHNxAH4ACztCXfR0ABJzZW5kRmlsZSRkZWZhdWx0JDJzcQB+AAtHlSGndAAOQUNDRVBUX0NIQVJTRVRzcQB+AAulFdwQdAARUGVybWFuZW50UmVkaXJlY3RzcQB+AAskpMpNdAAKbmV3Q29va2llc3NxAH4AC8AtED90ABFFeHBlY3RhdGlvbkZhaWxlZHNxAH4ACxwmGp90AANWSUFzcQB+AAvFeJ4udAAMYXNJbnN0YW5jZU9mc3EAfgAL0skJ43QAD1JFUVVFU1RfVElNRU9VVHNxAH4AC+dCBtl0ABBNVUxUSVBMRV9DSE9JQ0VTc3EAfgALI55jt3QAEU1PVkVEX1BFUk1BTkVOVExZc3EAfgALwnwywXQAAlRFc3EAfgALI/WIxHQADkdhdGV3YXlUaW1lb3V0c3EAfgAL9ItgOHQAEENPTlRFTlRfTE9DQVRJT05zcQB+AAtu46BodAAPUEFSVElBTF9DT05URU5Uc3EAfgALasZXMXQAE3JlbW92aW5nRnJvbVNlc3Npb25zcQB+AAvV92GGdAAUSU5TVUZGSUNJRU5UX1NUT1JBR0VzcQB+AAuf+Cq2dAAMRVZFTlRfU1RSRUFNc3EAfgALOIrwf3QADHN5bmNocm9uaXplZHNxAH4AC1hQTWV0ABBGYWlsZWREZXBlbmRlbmN5c3EAfgALNTSo3XQABEVUQUdzcQB+AAsrPcv1dAAPTEVOR1RIX1JFUVVJUkVEc3EAfgALf58E6nQADndpdGhOZXdTZXNzaW9uc3EAfgALoT5gnXQACkpBVkFTQ1JJUFRzcQB+AAufhuB0dAAORW50aXR5VG9vTGFyZ2VzcQB+AAu8Jlr2dAAMVU5BVVRIT1JJWkVEc3EAfgALZnFMOHQAEnNlbmRQYXRoJGRlZmF1bHQkMnNxAH4AC4z3jI10ABZVTlNVUFBPUlRFRF9NRURJQV9UWVBFc3EAfgALQ8WfuHQAF2RlZmF1bHRFeGVjdXRpb25Db250ZXh0c3EAfgALBYzP1HQADSRpc0luc3RhbmNlT2ZzcQB+AAsqZd3VdAAIc3RyZWFtZWRzcQB+AAuCO1MQdAAJczNTZXJ2aWNlc3EAfgAL/Sh7gHQAB1JFRkVSRVJzcQB+AAvOty7sdAAYUkVRVUVTVF9FTlRJVFlfVE9PX0xBUkdFc3EAfgALx8NOznQABk9SSUdJTnNxAH4ACwA3LcR0AAt3aXRoQ29va2llc3NxAH4AC5WpJwF0AA9BQ0NFUFRfTEFOR1VBR0VzcQB+AAtxE6updAAMTk9UX01PRElGSUVEc3EAfgALBQjsiXQAAmFzc3EAfgALkj1JFnQAFGNvbnRyb2xsZXJDb21wb25lbnRzc3EAfgALhT/7/nQAC3dpdGhTZXNzaW9uc3EAfgALjo95YnQAFWJha2VDb29raWVzJGRlZmF1bHQkM3NxAH4AC57DDEJ0ABpIVFRQX1ZFUlNJT05fTk9UX1NVUFBPUlRFRHNxAH4ACyIJr5p0ABtBQ0NFU1NfQ09OVFJPTF9BTExPV19PUklHSU5zcQB+AAuV1LrCdAASc2VuZEZpbGUkZGVmYXVsdCQzc3EAfgALzzqLoXQAE1VucHJvY2Vzc2FibGVFbnRpdHlzcQB+AAv+8ZStdAAQWF9YU1NfUFJPVEVDVElPTnNxAH4AC29WOjl0AAlJbUFUZWFwb3RzcQB+AAsqdw+gdAAUUHJlY29uZGl0aW9uUmVxdWlyZWRzcQB+AAvCd0BidAAIY2FuRXF1YWxzcQB+AAtpW8c4dAAITm90Rm91bmRzcQB+AAuZIwWFdAAISUZfUkFOR0VzcQB+AAsxQ4m3dAASc2VuZEZpbGUkZGVmYXVsdCQ0c3EAfgAL4yDFPXQAD1JFRkVSUkVSX1BPTElDWXNxAH4ACzSw+iV0AA5jb3B5JGRlZmF1bHQkNHNxAH4AC9zSvfZ0AAhmbGFzaGluZ3NxAH4AC468ZeB0AAxmaWxlQnl0ZURhdGFzcQB+AAttJfzvdAAERk9STXNxAH4ACzuXMbl0ABNJRl9VTk1PRElGSUVEX1NJTkNFc3EAfgALBK4jAnQAEnN0cmVhbWVkJGRlZmF1bHQkM3NxAH4AC4+x9fZ0ABNTV0lUQ0hJTkdfUFJPVE9DT0xTc3EAfgALqYPnp3QAElRFTVBPUkFSWV9SRURJUkVDVHNxAH4AC3TnHLh0AA1wcm9kdWN0UHJlZml4c3EAfgALcAwa/XQADkNPTlRFTlRfTEVOR1RIc3EAfgALBrUI7HQAC0lNX0FfVEVBUE9Uc3EAfgAL65fOqnQAClNFVF9DT09LSUVzcQB+AAtZsJHUdAAJbm90aWZ5QWxsc3EAfgALPjHNMHQAA0FHRXNxAH4ACxnsdzR0AAtCQURfR0FURVdBWXNxAH4AC9K2uRJ0ABJFWFBFQ1RBVElPTl9GQUlMRURzcQB+AAsPb5X0dAAKQ09OTkVDVElPTnNxAH4AC+NY0J90AAlGT1JXQVJERURzcQB+AAt+U/CTdAACT2tzcQB+AAtJbkjadAAMaXNJbnN0YW5jZU9mc3EAfgAL1QJSI3QAEE1vdmVkUGVybWFuZW50bHlzcQB+AAtEkII+dAACT0tzcQB+AAv3SQZ7dAAGYXNKYXZhc3EAfgALfTpURXQAEWRpc2NhcmRpbmdDb29raWVzc3EAfgAL/vFBmXQABExJTktzcQB+AAsPjNs9dAAmWF9DT05URU5UX1NFQ1VSSVRZX1BPTElDWV9OT05DRV9IRUFERVJzcQB+AAteWDuqdAAcQUNDRVNTX0NPTlRST0xfQUxMT1dfSEVBREVSU3NxAH4AC2tLx/h0AApuZXdTZXNzaW9uc3EAfgALwAZrMnQAGVNUUklDVF9UUkFOU1BPUlRfU0VDVVJJVFlzcQB+AAs7ydgPdAAOQ0FDSEVfTUFOSUZFU1RzcQB+AAvejPKXdAAJRm9yYmlkZGVuc3EAfgALhku+2HQAF0h0dHBWZXJzaW9uTm90U3VwcG9ydGVkc3EAfgALNwI45nQABFRFWFRzcQB+AAvjsSg4dAAKQmFkUmVxdWVzdHNxAH4AC+gO3rp0AAVGT1VORHNxAH4AC4NV3w50AAY8aW5pdD5zcQB+AAtEVIRFdAALTm90TW9kaWZpZWRzcQB+AAusFVbadAAEREFURXNxAH4AC8PXzo90ABBkaXNjYXJkaW5nSGVhZGVyc3EAfgALi4j7z3QABWFzeW5jc3EAfgALR1Ji+3QADUNPTlRFTlRfUkFOR0VzcQB+AAvCTVDUdAAEJGFtcHNxAH4AC92VCPV0AAxzZW5kUmVzb3VyY2VzcQB+AAuAoF8LdAAHY2h1bmtlZHNxAH4AC+ShkeN0ABFUUkFOU0ZFUl9FTkNPRElOR3NxAH4AC56Uv/R0ABJQRVJNQU5FTlRfUkVESVJFQ1RzcQB+AAsQZ15gdAAFYXBwbHlzcQB+AAvMwUradAARVE9PX01BTllfUkVRVUVTVFNzcQB+AAu0pTmXdAAFcGFyc2VzcQB+AAteEIa4dAATUFJPWFlfQVVUSE9SSVpBVElPTnNxAH4AC7G8CdV0AAI9PXNxAH4AC5kmF6F0AARHT05Fc3EAfgALcWHnJnQABEdvbmVzcQB+AAtol+RvdAAgQUNDRVNTX0NPTlRST0xfQUxMT1dfQ1JFREVOVElBTFNzcQB+AAtalA0YdAAOTk9UX0FDQ0VQVEFCTEVzcQB+AAu1cPksdAAFY2xvbmVzcQB+AAvjadBGdAAVUFJFQ09ORElUSU9OX1JFUVVJUkVEc3EAfgALjYM4fXQABkVYUEVDVHNxAH4AC27nyrB0ABZzZW5kUmVzb3VyY2UkZGVmYXVsdCQzc3EAfgALbkUBV3QAH1JFUVVFU1RfSEVBREVSX0ZJRUxEU19UT09fTEFSR0VzcQB+AAv36HChdAASU2VydmljZVVuYXZhaWxhYmxlc3EAfgALE9gC3XQACExPQ0FUSU9Oc3EAfgALMyoAGHQAEnNlbmRQYXRoJGRlZmF1bHQkNHNxAH4AC3akMUx0AARWQVJZc3EAfgALdaWFoXQAEFdXV19BVVRIRU5USUNBVEVzcQB+AAsc8YR7dAAGdXBsb2Fkc3EAfgALdy0pfnQABFRPRE9zcQB+AAv0gxVvdAAPWF9GT1JXQVJERURfRk9Sc3EAfgAL/SE9CXQABiRpbml0JHNxAH4AC8YbUFF0ABJQcmVjb25kaXRpb25GYWlsZWRzcQB+AAvpJJw1dAAIQUNDRVBURURzcQB+AAs/lNnrdAAESHRtbHNxAH4AC+CWF910AApOT19DT05URU5Uc3EAfgALRo+L+nQACEhUVFBfMV8wc3EAfgALJeintHQAFUlOVEVSTkFMX1NFUlZFUl9FUlJPUnNxAH4AC50lBBx0ACNDT05URU5UX1NFQ1VSSVRZX1BPTElDWV9SRVBPUlRfT05MWXNxAH4AC+69kBp0ABViYWtlQ29va2llcyRkZWZhdWx0JDRzcQB+AAtuRzQ/dAAHVVBHUkFERXNxAH4AC6kpcxJ0AAtiYWtlQ29va2llc3NxAH4AC8wBKF90AAlOT1RfRk9VTkRzcQB+AAvPYmrgdAAHc2Vzc2lvbnNxAH4AC0APwT50AA9BQ0NFUFRfRU5DT0RJTkdzcQB+AAsKsvWodAATSW50ZXJuYWxTZXJ2ZXJFcnJvcnNxAH4AC3cNmMh0AAdFWFBJUkVTc3EAfgALRI0Og3QADmNvcHkkZGVmYXVsdCQzc3EAfgALVTkbV3QABGNvcHlzcQB+AAu9SXKKdAAfUkVRVUVTVEVEX1JBTkdFX05PVF9TQVRJU0ZJQUJMRXNxAH4AC8fHZoF0AAZoZWFkZXJzcQB+AAuga0o8dAAQVVBHUkFERV9SRVFVSVJFRHNxAH4AC8tGz6d0AA9Ub29NYW55UmVxdWVzdHNzcQB+AAtDYcoddAAfTkVUV09SS19BVVRIRU5USUNBVElPTl9SRVFVSVJFRHNxAH4AC7P3cvt0AAh0b1N0cmluZ3NxAH4AC0zuu4t0AAxVbmF1dGhvcml6ZWRzcQB+AAsH5aPIdAAOUmVxdWVzdFRpbWVvdXRzcQB+AAtglgesdAAGQUNDRVBUc3EAfgAL7WkOonQAClVyaVRvb0xvbmdzcQB+AAtK352qdAAPR0FURVdBWV9USU1FT1VUc3EAfgAL2fMYNHQAC011bHRpU3RhdHVzc3EAfgALZYFXQXQABlNFUlZFUnNxAH4AC6TW8kB0AB1BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX01FVEhPRHNxAH4ACw0/H4h0ABRVTlBST0NFU1NBQkxFX0VOVElUWXNxAH4AC/lSI9R0ABZBQ0NFU1NfQ09OVFJPTF9NQVhfQUdFc3EAfgAL13EmwnQACHNlbmRQYXRoc3EAfgALLERbtnQACnNlbmRFbnRpdHlzcQB+AAsTrmoydAACIT1zcQB+AAvRS4YRdAANTEFTVF9NT0RJRklFRHNxAH4AC1JVrWx0AB1BQ0NFU1NfQ09OVFJPTF9FWFBPU0VfSEVBREVSU3NxAH4AC6yhGul0AB5BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX0hFQURFUlNzcQB+AAsIpF3OdAALd2l0aENoYXJzZXRzcQB+AAtj55fpdAAIQ29uZmxpY3RzcQB+AAt+vculdAAFQUxMT1dzcQB+AAtFEb/OdAAGQ09PS0lFc3EAfgALkSflT3QAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALeQEdKXQACGdldENsYXNzc3EAfgALvJ7Ue3QAA1htbHNxAH4ACzYnsMR0ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALMzQ5FHQADmNvcHkkZGVmYXVsdCQxc3EAfgALzJaTGnQABEhUTUxzcQB+AAvrqjJgdAAFRm91bmRzcQB+AAv5z9P9dAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAthpbb0dAAGcmVuZGVyc3EAfgALEi6/d3QABlBSQUdNQXNxAH4AC3DZUqB0AAhJRl9NQVRDSHNxAH4AC+fLH3h0AB1QUk9YWV9BVVRIRU5USUNBVElPTl9SRVFVSVJFRHNxAH4AC/9ygDJ0AA1SRVNFVF9DT05URU5Uc3EAfgALnOqmoXQACVNFRV9PVEhFUnNxAH4ACzERYSh0AB1OZXR3b3JrQXV0aGVudGljYXRpb25SZXF1aXJlZHNxAH4AC8IYWmV0ABFGQUlMRURfREVQRU5ERU5DWXNxAH4AC6HHH0B0AAJuZXNxAH4ACzhIQnl0ABBDT05URU5UX0VOQ09ESU5Hc3EAfgALphnz63QAE0luc3VmZmljaWVudFN0b3JhZ2VzcQB+AAu9mHEsdAAFUkFOR0VzcQB+AAv2ppzodAAPd2l0aERhdGVIZWFkZXJzc3EAfgALsil2+3QACVVTRV9QUk9YWXNxAH4AC7noGXx0AAhEb3dubG9hZHNxAH4AC324uT10AAdBY2NlcHRzc3EAfgALZV7OS3QAB0NIVU5LRURzcQB+AAvLd2SwdAAUUkVRVUVTVF9VUklfVE9PX0xPTkdzcQB+AAu9LwfhdAASUmVkaXJlY3QkZGVmYXVsdCQzc3EAfgALETF44HQABkxPQ0tFRHNxAH4AC2hJ4jB0ABtSZXF1ZXN0SGVhZGVyRmllbGRzVG9vTGFyZ2VzcQB+AAsZPnNLdAASc2VuZFBhdGgkZGVmYXVsdCQzc3EAfgALZPT1bHQABkFjdGlvbnNxAH4AC913kJh0AARKc29uc3EAfgAL4y99OHQACUZPUkJJRERFTnNxAH4AC98cvPR0ABJNRVRIT0RfTk9UX0FMTE9XRURzcQB+AAvfvEZvdAACZXFzcQB+AAsETGHhdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALPmZ69XQADUlGX05PTkVfTUFUQ0hzcQB+AAsKCvEUdAANQUNDRVBUX1JBTkdFU3NxAH4AC90eHuF0AAlOb0NvbnRlbnRzcQB+AAufaq1ndAAQWF9SRVFVRVNURURfV0lUSHNxAH4AC8Lz8MF0ABFYX0ZPUldBUkRFRF9QUk9UT3NxAH4AC5vu+xB0AAhDb250aW51ZXNxAH4AC9M4tbx0AAxNVUxUSV9TVEFUVVNzcQB+AAtxdo+hdAACIyNzcQB+AAuCyQ5idAAIZmluYWxpemVzcQB+AAtHRKpqdAATU0VSVklDRV9VTkFWQUlMQUJMRXNxAH4AC78a/010AA5wcm9kdWN0RWxlbWVudHNxAH4AC8YnWL90AAhoYXNoQ29kZXNxAH4AC6mUbH90AAZTdGF0dXNzcQB+AAtz3v2YdAALd2l0aEhlYWRlcnNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAVY29udHJvbGxlcnMuczNTZXJ2aWNldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAYY29tLmdvb2dsZS5pbmplY3QuSW5qZWN0dAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4CdXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgJbTAAJaW5oZXJpdGVkcQB+AltMAAdwYXJlbnRzcQB+Alt4cQB+AnpzcQB+AnV1cQB+AlYAAAAAc3EAfgJ1dXEAfgJWAAAAAHNxAH4CdXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAOc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CeXQADkJhc2VDb250cm9sbGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgJ5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgKSdAADYXBpc3EAfgKSdAADbXZjc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ApNzcQB+AoZ0ABVCYXNlQ29udHJvbGxlckhlbHBlcnNxAH4CjHNxAH4ChnQAEUNvbnRyb2xsZXJIZWxwZXJzcQB+AoxzcQB+AoZ0ABBSZXF1ZXN0SW1wbGljaXRzcQB+AoxzcQB+AoZ0AAlSZW5kZXJpbmdxAH4CjHNxAH4ChnQAEVJlcXVlc3RFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0ABBBY2NlcHRFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0AAxDb250ZW50VHlwZXNzcQB+AopzcQB+Ao11cQB+ApAAAAAEc3EAfgKSdAAEcGxheXNxAH4CknEAfgKXc3EAfgKSdAAEaHR0cHEAfgKbc3EAfgKGdAALSGVhZGVyTmFtZXNxAH4CqnNxAH4ChnQABlN0YXR1c3EAfgKqc3EAfgKGdAAMSHR0cFByb3RvY29scQB+AqpzcQB+AoZ0AAdSZXN1bHRzcQB+AoxzcQB+AoZ0AAZPYmplY3RzcQB+AopzcQB+Ao11cQB+ApAAAAADc3EAfgKSdAAEamF2YXNxAH4CknQABGxhbmdxAH4Cm3NxAH4ChnQAA0FueXNxAH4CinNxAH4CjXVxAH4CkAAAAAJzcQB+ApJ0AAVzY2FsYXEAfgKbdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvgzN1CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEBhuHG+cXcfo4gJlh7g9mY3bO/G
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcB7MpwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAVzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAigyZIdAANZmlsZU1pbWVUeXBlc3NxAH4ACwV/0id0AA9yZXF1ZXN0MnNlc3Npb25zcQB+AAsjx8sQdAALbWVzc2FnZXNBcGlzcQB+AAt1XbKMdAAOc3VwcG9ydGVkTGFuZ3NzcQB+AAs6mLbddAANcmVxdWVzdDJmbGFzaHVxAH4ACQAAAR1zcQB+AAvdF46PdAAMUmVzZXRDb250ZW50c3EAfgALLpVI/XQADU5vdEFjY2VwdGFibGVzcQB+AAttZn1zdAARVGVtcG9yYXJ5UmVkaXJlY3RzcQB+AAsf4vW6dAAIc2VuZEZpbGVzcQB+AAvqwdhodAAIbmV3Rmxhc2hzcQB+AAsJMLzpdAAPYWRkaW5nVG9TZXNzaW9uc3EAfgALEomhE3QABkxvY2tlZHNxAH4AC2ywhC50AAZub3RpZnlzcQB+AAu52v64dAAERlJPTXNxAH4ACwhE9Yl0ABBDT05URU5UX0xBTkdVQUdFc3EAfgALGcZ3nHQAB0NSRUFURURzcQB+AAvY2wZkdAAHdW5hcHBseXNxAH4ACwSKQ+90ABBUT09fTUFOWV9SRVFVRVNUc3EAfgALSvZI8nQAD1hfRlJBTUVfT1BUSU9OU3NxAH4ACw2yhQd0AAdXQVJOSU5Hc3EAfgAL5wU8VnQAD1BheW1lbnRSZXF1aXJlZHNxAH4AC5xrHyp0AAhDT05USU5VRXNxAH4AC7bDb7d0AARib2R5c3EAfgALroB/wXQABVhIVE1Mc3EAfgAL/wzdLHQAC1NFVF9DT09LSUUyc3EAfgALtt5DDXQACEhUVFBfMV8xc3EAfgALiMfa1XQAFWJha2VDb29raWVzJGRlZmF1bHQkMnNxAH4AC3/3vGB0ABNDT05URU5UX0RJU1BPU0lUSU9Oc3EAfgALrM68UHQADENPTlRFTlRfVFlQRXNxAH4ACy95S3B0AAZCSU5BUllzcQB+AAuhY3CCdAAEd2FpdHNxAH4ACyJNva50ABxBQ0NFU1NfQ09OVFJPTF9BTExPV19NRVRIT0RTc3EAfgAL6kU6oHQACkJhZEdhdGV3YXlzcQB+AAvCHCoFdAAQTWV0aG9kTm90QWxsb3dlZHNxAH4AC0IwVLt0AA5Ub29NYW55UmVxdWVzdHNxAH4AC7w+vbd0AApVU0VSX0FHRU5Uc3EAfgALG96qa3QAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDJzcQB+AAu/STCWdAAESE9TVHNxAH4ACzGvo510AAtDT05URU5UX01ENXNxAH4AC6Lc7iF0AA5jb3B5JGRlZmF1bHQkMnNxAH4AC/2GbKd0AAdDcmVhdGVkc3EAfgALfaE6vXQADSRhc0luc3RhbmNlT2ZzcQB+AAvxaLWKdAAQWF9GT1JXQVJERURfUE9SVHNxAH4AC9KuAUp0ABJTd2l0Y2hpbmdQcm90b2NvbHNzcQB+AAs9XR/RdAAKSmF2YVNjcmlwdHNxAH4AC481oft0AAtCQURfUkVRVUVTVHNxAH4AC3rkzgV0AA5Ob3RJbXBsZW1lbnRlZHNxAH4ACwBusqB0AAxNQVhfRk9SV0FSRFNzcQB+AAuCiRUTdAAOY29weSRkZWZhdWx0JDVzcQB+AAtbVCDydAAQWF9GT1JXQVJERURfSE9TVHNxAH4AC9cRCgN0ABdDT05URU5UX1NFQ1VSSVRZX1BPTElDWXNxAH4AC0UgsAJ0AANDU1NzcQB+AAuXSXoudAAhWF9QRVJNSVRURURfQ1JPU1NfRE9NQUlOX1BPTElDSUVTc3EAfgALRL8pcHQACFNlZU90aGVyc3EAfgALY+2knnQAB1RSQUlMRVJzcQB+AAuq6mQrdAASUFJPWFlfQVVUSEVOVElDQVRFc3EAfgALW5BrwHQADUFVVEhPUklaQVRJT05zcQB+AAtfN5QtdAADWE1Mc3EAfgALC0UpjXQADUNBQ0hFX0NPTlRST0xzcQB+AAuHiN3SdAAVYmFrZUNvb2tpZXMkZGVmYXVsdCQxc3EAfgALfJ8Su3QAG05vbkF1dGhvcml0YXRpdmVJbmZvcm1hdGlvbnNxAH4AC5ahj5t0AA9OT1RfSU1QTEVNRU5URURzcQB+AAsiF7S0dAAWWF9DT05URU5UX1RZUEVfT1BUSU9OU3NxAH4AC6yz6E10AAxwcm9kdWN0QXJpdHlzcQB+AAtKl49ldAAGZXF1YWxzc3EAfgALO5/NdnQAEFBBWU1FTlRfUkVRVUlSRURzcQB+AAsmu//rdAAIQWNjZXB0ZWRzcQB+AAs8Agy6dAALUkVUUllfQUZURVJzcQB+AAu7ursedAASUmVkaXJlY3QkZGVmYXVsdCQyc3EAfgALyUtHvHQADWZpbGVCeXRlRGF0YTFzcQB+AAtHeq4DdAAESlNPTnNxAH4AC0dJ8d50AAhSZWRpcmVjdHNxAH4ACy9+Zch0ABNQUkVDT05ESVRJT05fRkFJTEVEc3EAfgALd2kP8nQADlBhcnRpYWxDb250ZW50c3EAfgALj03+GHQAFFVuc3VwcG9ydGVkTWVkaWFUeXBlc3EAfgALMg28wXQACENPTkZMSUNUc3EAfgALFeXKUXQAEnNlbmRGaWxlJGRlZmF1bHQkMnNxAH4AC6invCt0AA5BQ0NFUFRfQ0hBUlNFVHNxAH4AC9svtpp0ABFQZXJtYW5lbnRSZWRpcmVjdHNxAH4ACzAYLE10AApuZXdDb29raWVzc3EAfgALzKLl2HQAEUV4cGVjdGF0aW9uRmFpbGVkc3EAfgALWdket3QAA1ZJQXNxAH4AC2ExGXN0AAxhc0luc3RhbmNlT2ZzcQB+AAsl8TjAdAAPUkVRVUVTVF9USU1FT1VUc3EAfgALbGkzkHQAEE1VTFRJUExFX0NIT0lDRVNzcQB+AAsxJlDSdAARTU9WRURfUEVSTUFORU5UTFlzcQB+AAsrPKMvdAACVEVzcQB+AAsndwzKdAAOR2F0ZXdheVRpbWVvdXRzcQB+AAvFanIRdAAQQ09OVEVOVF9MT0NBVElPTnNxAH4AC9QcqXV0AA9QQVJUSUFMX0NPTlRFTlRzcQB+AAsdFyM1dAATcmVtb3ZpbmdGcm9tU2Vzc2lvbnNxAH4AC1pwm8B0ABRJTlNVRkZJQ0lFTlRfU1RPUkFHRXNxAH4AC7UmY8t0AAxFVkVOVF9TVFJFQU1zcQB+AAtjOEmXdAAMc3luY2hyb25pemVkc3EAfgALp14OcXQAEEZhaWxlZERlcGVuZGVuY3lzcQB+AAsW1JttdAAERVRBR3NxAH4AC85Aszd0AA9MRU5HVEhfUkVRVUlSRURzcQB+AAstxIOFdAAOd2l0aE5ld1Nlc3Npb25zcQB+AAv1rFcHdAAKSkFWQVNDUklQVHNxAH4AC6VaVTN0AA5FbnRpdHlUb29MYXJnZXNxAH4AC0ZU8it0AAxVTkFVVEhPUklaRURzcQB+AAthhzLPdAASc2VuZFBhdGgkZGVmYXVsdCQyc3EAfgALaj3POHQAFlVOU1VQUE9SVEVEX01FRElBX1RZUEVzcQB+AAua1FX4dAAXZGVmYXVsdEV4ZWN1dGlvbkNvbnRleHRzcQB+AAuXw14BdAANJGlzSW5zdGFuY2VPZnNxAH4ACySF1q10AAhzdHJlYW1lZHNxAH4AC4AmNCR0AAdSRUZFUkVSc3EAfgALUV58TXQAGFJFUVVFU1RfRU5USVRZX1RPT19MQVJHRXNxAH4AC9E9EDd0AAZPUklHSU5zcQB+AAv+LdyrdAALd2l0aENvb2tpZXNzcQB+AAsQM/2+dAAPQUNDRVBUX0xBTkdVQUdFc3EAfgALJTuwoHQADE5PVF9NT0RJRklFRHNxAH4AC2Pa0fN0AAJhc3NxAH4ACwG3Fr10ABRjb250cm9sbGVyQ29tcG9uZW50c3NxAH4AC81J/qd0AAt3aXRoU2Vzc2lvbnNxAH4AC11SmJJ0ABViYWtlQ29va2llcyRkZWZhdWx0JDNzcQB+AAvLYFpkdAAaSFRUUF9WRVJTSU9OX05PVF9TVVBQT1JURURzcQB+AAsWjihCdAAbQUNDRVNTX0NPTlRST0xfQUxMT1dfT1JJR0lOc3EAfgALyYViZXQAEnNlbmRGaWxlJGRlZmF1bHQkM3NxAH4AC9PC5LR0ABNVbnByb2Nlc3NhYmxlRW50aXR5c3EAfgALF//YYnQAEFhfWFNTX1BST1RFQ1RJT05zcQB+AAunXknQdAAJSW1BVGVhcG90c3EAfgAL+BxzdHQAFFByZWNvbmRpdGlvblJlcXVpcmVkc3EAfgALCoiy2HQACGNhbkVxdWFsc3EAfgALP4S/sHQACE5vdEZvdW5kc3EAfgALmu3HD3QACElGX1JBTkdFc3EAfgALLsuHrHQAEnNlbmRGaWxlJGRlZmF1bHQkNHNxAH4AC1LZwv50AA9SRUZFUlJFUl9QT0xJQ1lzcQB+AAt26dJcdAAOY29weSRkZWZhdWx0JDRzcQB+AAuhVrHMdAAIZmxhc2hpbmdzcQB+AAu90nFMdAAERk9STXNxAH4AC2EbR6F0ABNJRl9VTk1PRElGSUVEX1NJTkNFc3EAfgALzNHvUHQAEnN0cmVhbWVkJGRlZmF1bHQkM3NxAH4AC1+xjN90ABNTV0lUQ0hJTkdfUFJPVE9DT0xTc3EAfgAL3zHfhnQAElRFTVBPUkFSWV9SRURJUkVDVHNxAH4AC9jNTk10AA1wcm9kdWN0UHJlZml4c3EAfgALoldFEnQADkNPTlRFTlRfTEVOR1RIc3EAfgALZMNKK3QAC0lNX0FfVEVBUE9Uc3EAfgALSns0gHQAClNFVF9DT09LSUVzcQB+AAvn5OxVdAAJbm90aWZ5QWxsc3EAfgALw/KXtHQAA0FHRXNxAH4AC5pKbvp0AAtCQURfR0FURVdBWXNxAH4AC4bjwtt0ABJFWFBFQ1RBVElPTl9GQUlMRURzcQB+AAvXQrHzdAAKQ09OTkVDVElPTnNxAH4AC2wzwj10AAlGT1JXQVJERURzcQB+AAvoyrxndAACT2tzcQB+AAvBtao3dAAMaXNJbnN0YW5jZU9mc3EAfgAL055//XQAEE1vdmVkUGVybWFuZW50bHlzcQB+AAsKsq3AdAACT0tzcQB+AAspWfipdAAGYXNKYXZhc3EAfgALlTeL7HQAEWRpc2NhcmRpbmdDb29raWVzc3EAfgALjGCQSHQABExJTktzcQB+AAt8Q11MdAAmWF9DT05URU5UX1NFQ1VSSVRZX1BPTElDWV9OT05DRV9IRUFERVJzcQB+AAsVcUovdAAcQUNDRVNTX0NPTlRST0xfQUxMT1dfSEVBREVSU3NxAH4ACzBM0mV0AApuZXdTZXNzaW9uc3EAfgALb4HZo3QAGVNUUklDVF9UUkFOU1BPUlRfU0VDVVJJVFlzcQB+AAvAmoAndAAOQ0FDSEVfTUFOSUZFU1RzcQB+AAti6T7UdAAJRm9yYmlkZGVuc3EAfgALBx5f3nQAF0h0dHBWZXJzaW9uTm90U3VwcG9ydGVkc3EAfgALTwcErHQABFRFWFRzcQB+AAslqogGdAAKQmFkUmVxdWVzdHNxAH4AC+yyOL50AAVGT1VORHNxAH4AC5M2K6Z0AAY8aW5pdD5zcQB+AAv5N5MhdAALTm90TW9kaWZpZWRzcQB+AAvxadwAdAAEREFURXNxAH4AC4mxF050ABBkaXNjYXJkaW5nSGVhZGVyc3EAfgAL9/Oh+XQABWFzeW5jc3EAfgAL2ZLVW3QADUNPTlRFTlRfUkFOR0VzcQB+AAuRBttKdAAEJGFtcHNxAH4AC8lrHWd0AAxzZW5kUmVzb3VyY2VzcQB+AAuCdbzfdAAHY2h1bmtlZHNxAH4AC2KOdIp0ABFUUkFOU0ZFUl9FTkNPRElOR3NxAH4AC7UvuZl0ABJQRVJNQU5FTlRfUkVESVJFQ1RzcQB+AAvUvgp5dAAFYXBwbHlzcQB+AAv3HJlydAARVE9PX01BTllfUkVRVUVTVFNzcQB+AAtDx0EkdAAFcGFyc2VzcQB+AAsxzGsGdAATUFJPWFlfQVVUSE9SSVpBVElPTnNxAH4AC4FNGXl0AAxzM0ZpbGVVcGxvYWRzcQB+AAu9j8lxdAACPT1zcQB+AAvN3ZBJdAAER09ORXNxAH4ACwCDSvB0AARHb25lc3EAfgAL11T2N3QAIEFDQ0VTU19DT05UUk9MX0FMTE9XX0NSRURFTlRJQUxTc3EAfgALXn2+unQADk5PVF9BQ0NFUFRBQkxFc3EAfgALN0vHWXQABWNsb25lc3EAfgALnDFN1nQAFVBSRUNPTkRJVElPTl9SRVFVSVJFRHNxAH4AC+bbNEd0AAZFWFBFQ1RzcQB+AAv3YeN9dAAWc2VuZFJlc291cmNlJGRlZmF1bHQkM3NxAH4AC7szD2R0AB9SRVFVRVNUX0hFQURFUl9GSUVMRFNfVE9PX0xBUkdFc3EAfgALrqV6J3QAElNlcnZpY2VVbmF2YWlsYWJsZXNxAH4AC3mJFih0AAhMT0NBVElPTnNxAH4ACyKWI9N0ABJzZW5kUGF0aCRkZWZhdWx0JDRzcQB+AAuuMFZedAAEVkFSWXNxAH4AC2VjHtp0ABBXV1dfQVVUSEVOVElDQVRFc3EAfgALmFjzlXQABFRPRE9zcQB+AAtcRBcndAAPWF9GT1JXQVJERURfRk9Sc3EAfgAL0hUKn3QABiRpbml0JHNxAH4ACz4ReYt0ABJQcmVjb25kaXRpb25GYWlsZWRzcQB+AAsLTVhcdAAIQUNDRVBURURzcQB+AAtlZ4OddAAESHRtbHNxAH4ACzlh/E50AApOT19DT05URU5Uc3EAfgAL7gHpGXQACEhUVFBfMV8wc3EAfgALatR3p3QAFUlOVEVSTkFMX1NFUlZFUl9FUlJPUnNxAH4AC3dPq3N0ACNDT05URU5UX1NFQ1VSSVRZX1BPTElDWV9SRVBPUlRfT05MWXNxAH4AC3oWm3B0ABViYWtlQ29va2llcyRkZWZhdWx0JDRzcQB+AAvU0oQCdAAHVVBHUkFERXNxAH4AC3pU93x0AAtiYWtlQ29va2llc3NxAH4ACxcLa0Z0AAlOT1RfRk9VTkRzcQB+AAtaOY7wdAAHc2Vzc2lvbnNxAH4AC31/+fx0AA9BQ0NFUFRfRU5DT0RJTkdzcQB+AAt4CGMrdAATSW50ZXJuYWxTZXJ2ZXJFcnJvcnNxAH4AC6HpVeV0AAdFWFBJUkVTc3EAfgALwQvUA3QADmNvcHkkZGVmYXVsdCQzc3EAfgAL5OJwZHQABGNvcHlzcQB+AAs7S/30dAAfUkVRVUVTVEVEX1JBTkdFX05PVF9TQVRJU0ZJQUJMRXNxAH4ACxHcOSV0AAZoZWFkZXJzcQB+AAt90QbidAAQVVBHUkFERV9SRVFVSVJFRHNxAH4AC01Dmyl0AA9Ub29NYW55UmVxdWVzdHNzcQB+AAsPoPpHdAAfTkVUV09SS19BVVRIRU5USUNBVElPTl9SRVFVSVJFRHNxAH4AC3LMhy50AAh0b1N0cmluZ3NxAH4ACzLQ6ZB0AAxVbmF1dGhvcml6ZWRzcQB+AAtzi9wedAAOUmVxdWVzdFRpbWVvdXRzcQB+AAu5hlwzdAAGQUNDRVBUc3EAfgALK1+t2nQAClVyaVRvb0xvbmdzcQB+AAtmzESAdAAPR0FURVdBWV9USU1FT1VUc3EAfgAL4JHyfnQAC011bHRpU3RhdHVzc3EAfgALBGdUQXQABlNFUlZFUnNxAH4AC90/9tJ0AB1BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX01FVEhPRHNxAH4ACyBYCoN0ABRVTlBST0NFU1NBQkxFX0VOVElUWXNxAH4AC0G0PgV0ABZBQ0NFU1NfQ09OVFJPTF9NQVhfQUdFc3EAfgALol9RlnQACHNlbmRQYXRoc3EAfgAL+IADhHQACnNlbmRFbnRpdHlzcQB+AAtxyOWVdAACIT1zcQB+AAtDNabCdAANTEFTVF9NT0RJRklFRHNxAH4ACyn8pkB0AB1BQ0NFU1NfQ09OVFJPTF9FWFBPU0VfSEVBREVSU3NxAH4AC21Ary90AB5BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX0hFQURFUlNzcQB+AAtI78KNdAALd2l0aENoYXJzZXRzcQB+AAs0rt2idAAIQ29uZmxpY3RzcQB+AAuWyccIdAAFQUxMT1dzcQB+AAtVwMRWdAAGQ09PS0lFc3EAfgAL0ZlISXQAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALrW+7fXQACGdldENsYXNzc3EAfgALVczcZnQAA1htbHNxAH4AC8EOk550ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALJj82hnQADmNvcHkkZGVmYXVsdCQxc3EAfgALttPBG3QABEhUTUxzcQB+AAuetGVVdAAFRm91bmRzcQB+AAvIYi7cdAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAtuJfG0dAAGcmVuZGVyc3EAfgALq11scnQABlBSQUdNQXNxAH4ACwyg8Z10AAhJRl9NQVRDSHNxAH4AC1NI3Et0AB1QUk9YWV9BVVRIRU5USUNBVElPTl9SRVFVSVJFRHNxAH4AC3xTI8x0AA1SRVNFVF9DT05URU5Uc3EAfgALZtaKw3QACVNFRV9PVEhFUnNxAH4AC0mkIi50AB1OZXR3b3JrQXV0aGVudGljYXRpb25SZXF1aXJlZHNxAH4AC5Y4eaB0ABFGQUlMRURfREVQRU5ERU5DWXNxAH4ACwSMmVt0AAJuZXNxAH4AC0vsfu50ABBDT05URU5UX0VOQ09ESU5Hc3EAfgALC4J7X3QAE0luc3VmZmljaWVudFN0b3JhZ2VzcQB+AAsSA5wLdAAFUkFOR0VzcQB+AAtVZRQAdAAPd2l0aERhdGVIZWFkZXJzc3EAfgALTy5d4nQACVVTRV9QUk9YWXNxAH4AC7MyfFx0AAdBY2NlcHRzc3EAfgALq9r9XnQAB0NIVU5LRURzcQB+AAsevhSedAAUUkVRVUVTVF9VUklfVE9PX0xPTkdzcQB+AAuRIPMkdAASUmVkaXJlY3QkZGVmYXVsdCQzc3EAfgALkcENjHQABkxPQ0tFRHNxAH4AC7Op7r90ABtSZXF1ZXN0SGVhZGVyRmllbGRzVG9vTGFyZ2VzcQB+AAtHjFD6dAASc2VuZFBhdGgkZGVmYXVsdCQzc3EAfgALaYNzoHQABkFjdGlvbnNxAH4ACyMJkJt0AARKc29uc3EAfgAL91tW2HQACUZPUkJJRERFTnNxAH4AC+aAx0d0ABJNRVRIT0RfTk9UX0FMTE9XRURzcQB+AAvDwijadAACZXFzcQB+AAv6oBTBdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALfZYpaHQADUlGX05PTkVfTUFUQ0hzcQB+AAtrv48ldAANQUNDRVBUX1JBTkdFU3NxAH4AC//sp/l0AAlOb0NvbnRlbnRzcQB+AAvmH3qVdAAQWF9SRVFVRVNURURfV0lUSHNxAH4AC+sd5+F0ABFYX0ZPUldBUkRFRF9QUk9UT3NxAH4AC+TyAed0AAhDb250aW51ZXNxAH4ACyNSZ+Z0AAxNVUxUSV9TVEFUVVNzcQB+AAv11Z4cdAACIyNzcQB+AAvY35HSdAAIZmluYWxpemVzcQB+AAtrkCXqdAATU0VSVklDRV9VTkFWQUlMQUJMRXNxAH4AC8+7/s50AA5wcm9kdWN0RWxlbWVudHNxAH4AC+sAY590AAhoYXNoQ29kZXNxAH4AC06U1xR0AAZTdGF0dXNzcQB+AAsIGrlLdAALd2l0aEhlYWRlcnNzcQB+AAsh/GKCdAAMSnNvbkRvd25sb2Fkc3EAfgALfdLXlXQABHppcDFzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAYY29udHJvbGxlcnMuSnNvbkRvd25sb2FkdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAYY29tLmdvb2dsZS5pbmplY3QuSW5qZWN0dAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4CdXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgJbTAAJaW5oZXJpdGVkcQB+AltMAAdwYXJlbnRzcQB+Alt4cQB+AnpzcQB+AnV1cQB+AlYAAAAAc3EAfgJ1dXEAfgJWAAAAAHNxAH4CdXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAOc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CeXQADkJhc2VDb250cm9sbGVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgJ5c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgKSdAADYXBpc3EAfgKSdAADbXZjc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ApNzcQB+AoZ0ABVCYXNlQ29udHJvbGxlckhlbHBlcnNxAH4CjHNxAH4ChnQAEUNvbnRyb2xsZXJIZWxwZXJzcQB+AoxzcQB+AoZ0ABBSZXF1ZXN0SW1wbGljaXRzcQB+AoxzcQB+AoZ0AAlSZW5kZXJpbmdxAH4CjHNxAH4ChnQAEVJlcXVlc3RFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0ABBBY2NlcHRFeHRyYWN0b3JzcQB+AoxzcQB+AoZ0AAxDb250ZW50VHlwZXNzcQB+AopzcQB+Ao11cQB+ApAAAAAEc3EAfgKSdAAEcGxheXNxAH4CknEAfgKXc3EAfgKSdAAEaHR0cHEAfgKbc3EAfgKGdAALSGVhZGVyTmFtZXNxAH4CqnNxAH4ChnQABlN0YXR1c3EAfgKqc3EAfgKGdAAMSHR0cFByb3RvY29scQB+AqpzcQB+AoZ0AAdSZXN1bHRzcQB+AoxzcQB+AoZ0AAZPYmplY3RzcQB+AopzcQB+Ao11cQB+ApAAAAADc3EAfgKSdAAEamF2YXNxAH4CknQABGxhbmdxAH4Cm3NxAH4ChnQAA0FueXNxAH4CinNxAH4CjXVxAH4CkAAAAAJzcQB+ApJ0AAVzY2FsYXEAfgKbdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvgzN1CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEqYGifgY99i7ZS4PJxRgXNxbcSZ
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwxoz6UAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAFzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDTVYdEdAADbWF0dXEAfgAJAAAAGHNxAH4AC+YJnft0AAZub3RpZnlzcQB+AAscZ4l8dAAEd2FpdHNxAH4AC2T0+xB0AA0kYXNJbnN0YW5jZU9mc3EAfgALp5oKk3QABmVxdWFsc3NxAH4ACyqpvkd0AAxhc0luc3RhbmNlT2ZzcQB+AAvIusLYdAANRXhhbXBsZUZpbHRlcnNxAH4AC45qvpp0AAxzeW5jaHJvbml6ZWRzcQB+AAvEo3usdAANJGlzSW5zdGFuY2VPZnNxAH4ACxRVqMB0AAlub3RpZnlBbGxzcQB+AAta4DZTdAAMaXNJbnN0YW5jZU9mc3EAfgALvyl/e3QABmFzSmF2YXNxAH4AC1AJDE90AAY8aW5pdD5zcQB+AAsErbpddAAFYXBwbHlzcQB+AAvNcoHZdAACPT1zcQB+AAs9uTkidAAFY2xvbmVzcQB+AAsC7WG2dAAGJGluaXQkc3EAfgALjZDObHQACHRvU3RyaW5nc3EAfgALhWy/yHQAAiE9c3EAfgALP8iRmnQACGdldENsYXNzc3EAfgAL8zmnenQAAm5lc3EAfgALGHoYEnQAAmVxc3EAfgALCk7OiXQAAiMjc3EAfgALj6aWBnQACGZpbmFsaXplc3EAfgALHPBx7nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2V0ABBMeHNidGkvYXBpL1R5cGU7eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADEwABXZhbHVlcQB+AAx4cHQAAHQAAigpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQACVNpbmdsZXRvbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFamF2YXhzcQB+AG50AAZpbmplY3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ab3NyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFWZpbHRlcnMuRXhhbXBsZUZpbHRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAE2phdmF4LmluamVjdC5JbmplY3R0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgBic3EAfgCDc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AElMAAlpbmhlcml0ZWRxAH4ASUwAB3BhcmVudHNxAH4ASXhxAH4AY3NxAH4Ag3VxAH4ARAAAAABzcQB+AIN1cQB+AEQAAAAAc3EAfgCDdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcQB+AGB0AAZGaWx0ZXJzcQB+AGZzcQB+AGl1cQB+AGwAAAAEc3EAfgBudAAEcGxheXNxAH4AbnQAA2FwaXNxAH4AbnQAA212Y3EAfgB1c3EAfgBgdAAPRXNzZW50aWFsRmlsdGVycQB+AJRzcQB+AGB0AAZPYmplY3RzcQB+AGZzcQB+AGl1cQB+AGwAAAADc3EAfgBudAAEamF2YXNxAH4AbnQABGxhbmdxAH4AdXNxAH4AYHQAA0FueXNxAH4AZnNxAH4AaXVxAH4AbAAAAAJzcQB+AG50AAVzY2FsYXEAfgB1dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAHZmlsdGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DM3UJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA5L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUdOX43r7rVBrBS/u4so8H6TEq2+c=
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUC7URQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwx+tlbXQABm5vdGlmeXNxAH4ADLiAo7B0AAR3YWl0c3EAfgAM11PXRXQADSRhc0luc3RhbmNlT2ZzcQB+AAxeC/BYdAAGZXF1YWxzc3EAfgAMxmRqRHQADGFzSW5zdGFuY2VPZnNxAH4ADL1XgE10AAxzeW5jaHJvbml6ZWRzcQB+AAwwZaLVdAAQQXBwbGljYXRpb25UaW1lcnNxAH4ADAf6spZ0AA0kaXNJbnN0YW5jZU9mc3EAfgAM7eqw/nQACW5vdGlmeUFsbHNxAH4ADJrOBAp0AAxpc0luc3RhbmNlT2ZzcQB+AAzRQOYudAAGPGluaXQ+c3EAfgAMBbDo83QAAj09c3EAfgAMG5CgHXQABWNsb25lc3EAfgAMpYL333QACHRvU3RyaW5nc3EAfgAMt/0GfnQAAiE9c3EAfgAM1peYLnQACGdldENsYXNzc3EAfgAMJD3pFHQAAm5lc3EAfgAMhdltUXQAAmVxc3EAfgAMLKkAo3QAAiMjc3EAfgAMG3lgu3QACGZpbmFsaXplc3EAfgAMSYP0xXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2V0ABBMeHNidGkvYXBpL1R5cGU7eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAAigpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQACVNpbmdsZXRvbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AWnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFamF2YXhzcQB+AGZ0AAZpbmplY3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AZ3NyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGXNlcnZpY2VzLkFwcGxpY2F0aW9uVGltZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABNqYXZheC5pbmplY3QuSW5qZWN0dAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhxAH4AWnNxAH4Ae3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AFtzcQB+AHt1cQB+ADwAAAAAc3EAfgB7dXEAfgA8AAAAAHNxAH4Ae3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3EAfgBYdAAGT2JqZWN0c3EAfgBec3EAfgBhdXEAfgBkAAAAA3NxAH4AZnQABGphdmFzcQB+AGZ0AARsYW5ncQB+AG1zcQB+AFh0AANBbnlzcQB+AF5zcQB+AGF1cQB+AGQAAAACc3EAfgBmdAAFc2NhbGFxAH4AbXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACHNlcnZpY2Vzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQmuzcclMuFcHxtJKHtJ6dW/7HkMg==
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw33ziKwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwB8P6znQABm5vdGlmeXNxAH4ADEEGUmt0AAluZXh0Q291bnRzcQB+AAyNM6DpdAAEd2FpdHNxAH4ADKMcyEp0AA0kYXNJbnN0YW5jZU9mc3EAfgAM/2gMnXQABmVxdWFsc3NxAH4ADJwwYUF0AA1BdG9taWNDb3VudGVyc3EAfgAMPAlIbXQADGFzSW5zdGFuY2VPZnNxAH4ADJIunGx0AAxzeW5jaHJvbml6ZWRzcQB+AAyn2vN3dAANJGlzSW5zdGFuY2VPZnNxAH4ADLj8+hV0AAlub3RpZnlBbGxzcQB+AAz4FgKWdAAMaXNJbnN0YW5jZU9mc3EAfgAMWPoFDHQABjxpbml0PnNxAH4ADGdRae10AAI9PXNxAH4ADEY/wpR0AAVjbG9uZXNxAH4ADFOyteB0AAh0b1N0cmluZ3NxAH4ADPpwv6h0AAIhPXNxAH4ADMq/ZT90AAhnZXRDbGFzc3NxAH4ADFnS+OF0AAdDb3VudGVyc3EAfgAMKvMOpnQAAm5lc3EAfgAME+aJlnQAAmVxc3EAfgAMG5ZgynQAAiMjc3EAfgAMcZjkcHQACGZpbmFsaXplc3EAfgAMuhwbpHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQAEHNlcnZpY2VzLkNvdW50ZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AY3NxAH4AXnVxAH4AQAAAAABzcQB+AF51cQB+AEAAAAAAc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB7dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB8c3EAfgBvdAADQW55c3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3QABXNjYWxhcQB+AIJzcQB+AEJxAH4AT3VxAH4AUAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNldAAQTHhzYnRpL2FwaS9UeXBlO3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0AAIoKXNxAH4Ab3QACVNpbmdsZXRvbnNxAH4Ac3NxAH4AdnVxAH4AeQAAAANzcQB+AHt0AAVqYXZheHNxAH4Ae3QABmluamVjdHEAfgCCc3EAfgBSAHQAFnNlcnZpY2VzLkF0b21pY0NvdW50ZXJ1cQB+AFUAAAAAfnEAfgBXdAAIQ2xhc3NEZWZ1cQB+AFsAAAABdAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcQB+AF5xAH4AZHNxAH4AXnNxAH4AZnNxAH4AXnVxAH4AQAAAAABzcQB+AF51cQB+AEAAAAAAc3EAfgBedXEAfgBtAAAAA3NxAH4Ab3QAB0NvdW50ZXJzcQB+AHNzcQB+AHZ1cQB+AHkAAAACc3EAfgB7dAAIc2VydmljZXNxAH4AgnNxAH4Ab3EAfgByc3EAfgBzc3EAfgB2dXEAfgB5AAAAA3NxAH4Ae3EAfgB+c3EAfgB7cQB+AIBxAH4AgnNxAH4Ab3EAfgCEc3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3EAfgCJcQB+AIJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhzZXJ2aWNlc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DM3UJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUI5+43o3oNHozyuMsQfbQsXWYa+I=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwJZf/bwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwUgkLKnQABm5vdGlmeXNxAH4ADHxVAQp0AA5fZGVmYXVsdFByZWZpeHNxAH4ADMBzNKN0AAR3YWl0c3EAfgAMfWAYAHQADSRhc0luc3RhbmNlT2ZzcQB+AAx4Bag9dAAGZXF1YWxzc3EAfgAM8yDHSXQADGFzSW5zdGFuY2VPZnNxAH4ADKicoCd0AAxzeW5jaHJvbml6ZWRzcQB+AAxA7LrVdAANJGlzSW5zdGFuY2VPZnNxAH4ADN05Uvl0AAlub3RpZnlBbGxzcQB+AAyDor9AdAATUmV2ZXJzZUpzb25Eb3dubG9hZHNxAH4ADFkIJkV0AAxpc0luc3RhbmNlT2ZzcQB+AAyjpInWdAAGPGluaXQ+c3EAfgAMoY/fEnQADHMzRmlsZVVwbG9hZHNxAH4ADF5XTw50AAI9PXNxAH4ADOgEM6Z0ABBSZXZlcnNlczNTZXJ2aWNlc3EAfgAMUnuv5HQABWNsb25lc3EAfgAMFYYTkHQABnVwbG9hZHNxAH4ADIx7sgZ0AAh0b1N0cmluZ3NxAH4ADMsJ7wt0AAIhPXNxAH4ADAFKOsR0AAhnZXRDbGFzc3NxAH4ADAXNlYN0AAJuZXNxAH4ADE1vdSh0AAhEb3dubG9hZHNxAH4ADCQgsO10AAJlcXNxAH4ADNdGIZ10AAIjI3NxAH4ADFstI750AAhmaW5hbGl6ZXNxAH4ADJFbi8F0AAhoYXNoQ29kZXNxAH4ADPfYvCt0AAR6aXAxc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAH2NvbnRyb2xsZXJzLlJldmVyc2VKc29uRG93bmxvYWR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4Aa3NxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AEgAAAAAc3EAfgBmdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBqdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBqc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCDdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCEc3EAfgB3dAADQW55c3EAfgB7c3EAfgB+dXEAfgCBAAAAAnNxAH4Ag3QABXNjYWxhcQB+AIpzcQB+AEpxAH4AV3VxAH4AWAAAAABzcQB+AFoAdAAcY29udHJvbGxlcnMuUmV2ZXJzZXMzU2VydmljZXVxAH4AXQAAAABxAH4AYXVxAH4AYwAAAAF0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNxAH4AZnEAfgBsc3EAfgBmc3EAfgBuc3EAfgBmdXEAfgBIAAAAAHNxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AHUAAAACc3EAfgB3cQB+AHpzcQB+AHtzcQB+AH51cQB+AIEAAAADc3EAfgCDcQB+AIZzcQB+AINxAH4AiHEAfgCKc3EAfgB3cQB+AIxzcQB+AHtzcQB+AH51cQB+AIEAAAACc3EAfgCDcQB+AJFxAH4AinVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQIhICBe16l4jDfDDFldkTPKMh4hw==
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwp0lr2QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwX5AtHXQABm5vdGlmeXNxAH4ADMzp3q90AA5fZGVmYXVsdFByZWZpeHNxAH4ADGt6cmZ0AAR3YWl0c3EAfgAM11+liXQADSRhc0luc3RhbmNlT2ZzcQB+AAzBmofEdAAGZXF1YWxzc3EAfgAMDKQN8HQADGFzSW5zdGFuY2VPZnNxAH4ADDK1GBR0AAxzeW5jaHJvbml6ZWRzcQB+AAysiojMdAANJGlzSW5zdGFuY2VPZnNxAH4ADOjq0El0AAlub3RpZnlBbGxzcQB+AAys4FFYdAATUmV2ZXJzZUpzb25Eb3dubG9hZHNxAH4ADHb58bB0AAxpc0luc3RhbmNlT2ZzcQB+AAx0+bvCdAAGPGluaXQ+c3EAfgAMTgsnEXQADHMzRmlsZVVwbG9hZHNxAH4ADP8s79V0AAI9PXNxAH4ADC5Du+N0ABBSZXZlcnNlczNTZXJ2aWNlc3EAfgAMVZ32anQABWNsb25lc3EAfgAMqhrOHHQABnVwbG9hZHNxAH4ADNu1sRZ0AAh0b1N0cmluZ3NxAH4ADL46FjZ0AAIhPXNxAH4ADLpn+aF0AAhnZXRDbGFzc3NxAH4ADBkicXV0AAJuZXNxAH4ADDZjAI90AAhEb3dubG9hZHNxAH4ADDKcwbB0AAJlcXNxAH4ADNjoX5Z0AAIjI3NxAH4ADMJXKbF0AAhmaW5hbGl6ZXNxAH4ADFKzADp0AAhoYXNoQ29kZXNxAH4ADBPF9lN0AAR6aXAxc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAKmNvbnRyb2xsZXJzLmphdmFzY3JpcHQuUmV2ZXJzZUpzb25Eb3dubG9hZHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJmpkay5pbnRlcm5hbC5Ib3RTcG90SW50cmluc2ljQ2FuZGlkYXRlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGZzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBrc3EAfgBmdXEAfgBIAAAAAHNxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGp0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIN0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIRzcQB+AHd0AANBbnlzcQB+AHtzcQB+AH51cQB+AIEAAAACc3EAfgCDdAAFc2NhbGFxAH4AinNxAH4ASnEAfgBXdXEAfgBYAAAAAHNxAH4AWgB0ACdjb250cm9sbGVycy5qYXZhc2NyaXB0LlJldmVyc2VzM1NlcnZpY2V1cQB+AF0AAAAAcQB+AGF1cQB+AGMAAAABdAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcQB+AGZxAH4AbHNxAH4AZnNxAH4AbnNxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AEgAAAAAc3EAfgBmdXEAfgB1AAAAAnNxAH4Ad3EAfgB6c3EAfgB7c3EAfgB+dXEAfgCBAAAAA3NxAH4Ag3EAfgCGc3EAfgCDcQB+AIhxAH4AinNxAH4Ad3EAfgCMc3EAfgB7c3EAfgB+dXEAfgCBAAAAAnNxAH4Ag3EAfgCRcQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABZjb250cm9sbGVycy5qYXZhc2NyaXB0c3EAfgCvdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvgzN1CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFN4GHAcVrOtLHFHnVEqRwThRePOq
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdAA5L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZZYi8ZV0CkEsgGu0tWup4vNmuC0=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUwPpywAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAjc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwiyZn9nQABm5vdGlmeXNxAH4ADGWb3lJ0AApiYWRSZXF1ZXN0c3EAfgAMgJgH0nQABHdhaXRzcQB+AAxy9pV9dAANJGFzSW5zdGFuY2VPZnNxAH4ADEk2S3d0AAZyb3V0ZXNzcQB+AAx5b7vQdAANY3JlYXRlSW52b2tlcnNxAH4ADDoKbR50AAZlcXVhbHNzcQB+AAxUx9/vdAAGcHJlZml4c3EAfgAM7rEG3nQADGFzSW5zdGFuY2VPZnNxAH4ADAJP80p0AA1kb2N1bWVudGF0aW9uc3EAfgAMyAHA4HQADHN5bmNocm9uaXplZHNxAH4ADNpRt4V0AA0kaXNJbnN0YW5jZU9mc3EAfgAMiPJDSXQACmhhbmRsZXJGb3JzcQB+AAyd70i9dAAGb3JFbHNlc3EAfgAMI1FYf3QACW5vdGlmeUFsbHNxAH4ADGRFPGV0AAIvOnNxAH4ADMhmhNR0AAxpc0luc3RhbmNlT2ZzcQB+AAxRHo33dAAGYXNKYXZhc3EAfgAMzktFqHQADGVycm9ySGFuZGxlcnNxAH4ADKnNf9B0AAY8aW5pdD5zcQB+AAxa6Ge3dAACPT1zcQB+AAwEemyzdAAFY2xvbmVzcQB+AAzgRL58dAAGJGluaXQkc3EAfgAMFIsIyXQABlJvdXRlc3NxAH4ADLdI6/B0AAh0b1N0cmluZ3NxAH4ADMm/J8h0AAIhPXNxAH4ADMpR4yt0AAlmYWtlVmFsdWVzcQB+AAxZIoiHdAAIZ2V0Q2xhc3NzcQB+AAwyYEmkdAACbmVzcQB+AAyPm/FydAAKd2l0aFByZWZpeHNxAH4ADB2WsK50AARjYWxsc3EAfgAM91S/fnQAAmVxc3EAfgAM91K9EHQAAiMjc3EAfgAM0hAnwHQACGZpbmFsaXplc3EAfgAMc9JHOnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AXXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADXJvdXRlci5Sb3V0ZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABNqYXZheC5pbmplY3QuSW5qZWN0dAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ad3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBdTAAJaW5oZXJpdGVkcQB+AF1MAAdwYXJlbnRzcQB+AF14cQB+AHxzcQB+AHd1cQB+AFgAAAAAc3EAfgB3dXEAfgBYAAAAAHNxAH4Ad3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ae3QAD0dlbmVyYXRlZFJvdXRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4AlHQABGNvcmVzcQB+AJR0AAdyb3V0aW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJVzcQB+AIh0AAZSb3V0ZXJzcQB+AIxzcQB+AI91cQB+AJIAAAAEc3EAfgCUdAAEcGxheXNxAH4AlHQAA2FwaXNxAH4AlHQAB3JvdXRpbmdxAH4AnXNxAH4AiHQABk9iamVjdHNxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJR0AARqYXZhc3EAfgCUdAAEbGFuZ3EAfgCdc3EAfgCIdAADQW55c3EAfgCMc3EAfgCPdXEAfgCSAAAAAnNxAH4AlHQABXNjYWxhcQB+AJ11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvgzN1CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOU6t7/3pV+CS4ij0vgvjm2QOp/w
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwOzrC1QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwB9T8bHQABm5vdGlmeXNxAH4ADDqZ8+l0AAxieU5hbWVQcmVmaXhzcQB+AAwaoC4qdAAEd2FpdHNxAH4ADCKKFB50AA0kYXNJbnN0YW5jZU9mc3EAfgAMaULSCHQABmVxdWFsc3NxAH4ADHOOIFd0AAZwcmVmaXhzcQB+AAyh7h6fdAAMYXNJbnN0YW5jZU9mc3EAfgAMSdNNC3QADFJvdXRlc1ByZWZpeHNxAH4ADMFVI+50AAxzeW5jaHJvbml6ZWRzcQB+AAzc9bSjdAANJGlzSW5zdGFuY2VPZnNxAH4ADDRMm350AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMs3atMHQABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMbcpjSHQACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADFWZ3YJ0AAhmaW5hbGl6ZXNxAH4ADO8c6vJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJmpkay5pbnRlcm5hbC5Ib3RTcG90SW50cmluc2ljQ2FuZGlkYXRlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBjc3EAfgBedXEAfgBAAAAAAHNxAH4AXnVxAH4AQAAAAABzcQB+AF51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHt0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHxzcQB+AG90AANBbnlzcQB+AHNzcQB+AHZ1cQB+AHkAAAACc3EAfgB7dAAFc2NhbGFxAH4AgnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABnJvdXRlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DM3UJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUDl56ZuGT4wPVlXR6QYPVVUKTPis=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcjbyTgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwRbbJBnQABm5vdGlmeXNxAH4ADNXoUtZ0AAZmb3JtYXRzcQB+AAxo1BiadAAEd2FpdHNxAH4ADFIBw8p0AA0kYXNJbnN0YW5jZU9mc3EAfgAMUNkVknQADHByb2R1Y3RBcml0eXNxAH4ADGrlpqx0AAZlcXVhbHNzcQB+AAz4YTDsdAAMYXNJbnN0YW5jZU9mc3EAfgAM0dzQcHQAAWZzcQB+AAwvpcnIdAAMc3luY2hyb25pemVkc3EAfgAMaZaFyHQACV9kaXNwbGF5X3NxAH4ADEtVoHB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMItkgYHQAA3JlZnNxAH4ADDnYA+F0AAhjYW5FcXVhbHNxAH4ADHuYsJV0AA1wcm9kdWN0UHJlZml4c3EAfgAMUy+nAXQACW5vdGlmeUFsbHNxAH4ADGv02DF0AAxpc0luc3RhbmNlT2ZzcQB+AAykcLHBdAAFYXBwbHlzcQB+AAwc0o66dAACPT1zcQB+AAxCZ8TrdAAFY2xvbmVzcQB+AAyDwoOjdAAGJGluaXQkc3EAfgAMbzLXtXQABGNvcHlzcQB+AAwaY2oIdAAIdG9TdHJpbmdzcQB+AAyFbOdVdAACIT1zcQB+AAw9b8ridAAIZ2V0Q2xhc3NzcQB+AAxGhC/8dAAOY29weSRkZWZhdWx0JDFzcQB+AAxSVfHfdAAGcmVuZGVyc3EAfgAMnyMNjHQAAm5lc3EAfgAM+/2EdXQAAmVxc3EAfgAMiKJzlHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADL/EnzZ0AAIjI3NxAH4ADM1xxqZ0AAhmaW5hbGl6ZXNxAH4ADDhiRoR0AAVpbmRleHNxAH4ADGKrc2x0AA5wcm9kdWN0RWxlbWVudHNxAH4ADOpsgOt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABB2aWV3cy5odG1sLmluZGV4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAJmpkay5pbnRlcm5hbC5Ib3RTcG90SW50cmluc2ljQ2FuZGlkYXRlc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AW0wACWluaGVyaXRlZHEAfgBbTAAHcGFyZW50c3EAfgBbeHEAfgB5c3EAfgB0dXEAfgBWAAAAAHNxAH4AdHVxAH4AVgAAAABzcQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAACHNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGV0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB4c3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4cQB+AIZ4cQB+AHh0AAlUZW1wbGF0ZTFzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+AJR0AAV0d2lybHNxAH4AlHQAA2FwaXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCVdXEAfgCDAAAAAnNxAH4AiXQABlN0cmluZ3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJR0AARqYXZhc3EAfgCUdAAEbGFuZ3EAfgCdc3EAfgCJdAAESHRtbHEAfgCOc3EAfgCFc3EAfgCJdAARQmFzZVNjYWxhVGVtcGxhdGVxAH4AjnVxAH4AgwAAAAJxAH4AqHNxAH4AhXNxAH4AiXQABkZvcm1hdHEAfgCOdXEAfgCDAAAAAXEAfgCoc3EAfgCJdAAMU2VyaWFsaXphYmxlc3EAfgCMc3EAfgCPdXEAfgCSAAAAAnNxAH4AlHQABXNjYWxhcQB+AJ1zcQB+AIlxAH4As3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJRxAH4ApXNxAH4AlHQAAmlvcQB+AJ1zcQB+AIl0AAdQcm9kdWN0cQB+ALRzcQB+AIl0AAZFcXVhbHNxAH4AtHNxAH4AiXQABk9iamVjdHEAfgChc3EAfgCJdAADQW55cQB+ALR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAV2aWV3c3NxAH4AynQACnZpZXdzLmh0bWxzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWvgzN1CdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFM89awa6vw9BjEjyF1qVkf/RvHFr
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwllN8jwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw+6Fb83QABm5vdGlmeXNxAH4ADK83o610AAZmb3JtYXRzcQB+AAxKsHYEdAAEd2FpdHNxAH4ADGy6tAt0AA0kYXNJbnN0YW5jZU9mc3EAfgAMvvutHXQADHByb2R1Y3RBcml0eXNxAH4ADCbrt810AAZlcXVhbHNzcQB+AAyaL2ewdAAMYXNJbnN0YW5jZU9mc3EAfgAMnNVJUnQAAWZzcQB+AAzmERROdAAMc3luY2hyb25pemVkc3EAfgAMBK3hs3QACV9kaXNwbGF5X3NxAH4ADHd6P590AA0kaXNJbnN0YW5jZU9mc3EAfgAMuWHFt3QAA3JlZnNxAH4ADBVUGdF0AAhjYW5FcXVhbHNxAH4ADIKrCvd0AARtYWluc3EAfgAM2VVa1nQADXByb2R1Y3RQcmVmaXhzcQB+AAxD+YQSdAAJbm90aWZ5QWxsc3EAfgAMK6qIwnQADGlzSW5zdGFuY2VPZnNxAH4ADHsQktJ0AAVhcHBseXNxAH4ADLYU7tR0AAI9PXNxAH4ADK7wq4V0AAVjbG9uZXNxAH4ADNdDMsF0AAYkaW5pdCRzcQB+AAytaqoWdAAEY29weXNxAH4ADNBaeYR0AAh0b1N0cmluZ3NxAH4ADIJ0HTt0AAIhPXNxAH4ADJFMunR0AAhnZXRDbGFzc3NxAH4ADHVD17Z0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADMVocf10AAZyZW5kZXJzcQB+AAxZvzhVdAACbmVzcQB+AAx+dcPKdAACZXFzcQB+AAx8u4NedAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMsEEnAnQAAiMjc3EAfgAMpHZwtnQACGZpbmFsaXplc3EAfgAM+zDaZnQADnByb2R1Y3RFbGVtZW50c3EAfgAM0CuhpXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AW3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAD3ZpZXdzLmh0bWwubWFpbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ACZqZGsuaW50ZXJuYWwuSG90U3BvdEludHJpbnNpY0NhbmRpZGF0ZXNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB0c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AeXNxAH4AdHVxAH4AVgAAAABzcQB+AHR1cQB+AFYAAAAAc3EAfgB0dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAhzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AeHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgCGeHEAfgB4dAAJVGVtcGxhdGUyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB4c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARwbGF5c3EAfgCUdAAFdHdpcmxzcQB+AJR0AANhcGlzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlXVxAH4AgwAAAANzcQB+AIl0AAZTdHJpbmdzcQB+AIxzcQB+AI91cQB+AJIAAAADc3EAfgCUdAAEamF2YXNxAH4AlHQABGxhbmdxAH4AnXNxAH4AiXQABEh0bWxxAH4AjnNxAH4AiXQABEh0bWxxAH4AjnNxAH4AhXNxAH4AiXQAEUJhc2VTY2FsYVRlbXBsYXRlcQB+AI51cQB+AIMAAAACcQB+AKpzcQB+AIVzcQB+AIl0AAZGb3JtYXRxAH4AjnVxAH4AgwAAAAFxAH4AqnNxAH4AiXQADFNlcmlhbGl6YWJsZXNxAH4AjHNxAH4Aj3VxAH4AkgAAAAJzcQB+AJR0AAVzY2FsYXEAfgCdc3EAfgCJcQB+ALVzcQB+AIxzcQB+AI91cQB+AJIAAAADc3EAfgCUcQB+AKVzcQB+AJR0AAJpb3EAfgCdc3EAfgCJdAAHUHJvZHVjdHEAfgC2c3EAfgCJdAAGRXF1YWxzcQB+ALZzcQB+AIl0AAZPYmplY3RxAH4AoXNxAH4AiXQAA0FueXEAfgC2dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFdmlld3NzcQB+AMx0AAp2aWV3cy5odG1sc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQndDGKlxeEG4NHW+6NWoSR8BbQsA==
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwi24PRgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAjc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwApvs+XQABm5vdGlmeXNxAH4ADCHFgNl0AAZmb3JtYXRzcQB+AAxo5E6LdAAEd2FpdHNxAH4ADJY5Q190AA0kYXNJbnN0YW5jZU9mc3EAfgAMnrzemXQADHByb2R1Y3RBcml0eXNxAH4ADF17NRt0AAZlcXVhbHNzcQB+AAyfDZK0dAAMYXNJbnN0YW5jZU9mc3EAfgAMLY216XQAAWZzcQB+AAzBgfBVdAAMc3luY2hyb25pemVkc3EAfgAMoF3hW3QACV9kaXNwbGF5X3NxAH4ADB9Llzt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMkQhFkHQAA3JlZnNxAH4ADLHIfeR0AAhjYW5FcXVhbHNxAH4ADK9PV0N0AA1wcm9kdWN0UHJlZml4c3EAfgAMS3SWjnQACW5vdGlmeUFsbHNxAH4ADM1cH1Z0AAxpc0luc3RhbmNlT2ZzcQB+AAzVovrEdAAPYXBwbHkkZGVmYXVsdCQyc3EAfgAMagd2SXQABWFwcGx5c3EAfgAMxm9Y1HQAAj09c3EAfgAMwRMNKHQABWNsb25lc3EAfgAM404tcHQABiRpbml0JHNxAH4ADL4CXw50AARjb3B5c3EAfgAMtUcpHXQACHRvU3RyaW5nc3EAfgAMp5kxLnQAAiE9c3EAfgAM+EOug3QAB3dlbGNvbWVzcQB+AAyJVvvkdAAIZ2V0Q2xhc3NzcQB+AAy2xueddAAOY29weSRkZWZhdWx0JDFzcQB+AAxKRxIXdAAGcmVuZGVyc3EAfgAM2QUg33QAAm5lc3EAfgAMRXo52nQAAmVxc3EAfgAMa56fAnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNEinJl0AAIjI3NxAH4ADCB0oRJ0AAhmaW5hbGl6ZXNxAH4ADKqHBmJ0AA5wcm9kdWN0RWxlbWVudHNxAH4ADNhaJZt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABJ2aWV3cy5odG1sLndlbGNvbWV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAmamRrLmludGVybmFsLkhvdFNwb3RJbnRyaW5zaWNDYW5kaWRhdGVzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBdTAAJaW5oZXJpdGVkcQB+AF1MAAdwYXJlbnRzcQB+AF14cQB+AHtzcQB+AHZ1cQB+AFgAAAAAc3EAfgB2dXEAfgBYAAAAAHNxAH4AdnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAIc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHpzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AiHhxAH4AenQACVRlbXBsYXRlMnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AenNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4AlnQABXR3aXJsc3EAfgCWdAADYXBpc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJd1cQB+AIUAAAADc3EAfgCLdAAGU3RyaW5nc3EAfgCOc3EAfgCRdXEAfgCUAAAAA3NxAH4AlnQABGphdmFzcQB+AJZ0AARsYW5ncQB+AJ9xAH4AoXNxAH4Ai3QABEh0bWxxAH4AkHNxAH4Ah3NxAH4Ai3QAEUJhc2VTY2FsYVRlbXBsYXRlcQB+AJB1cQB+AIUAAAACcQB+AKpzcQB+AIdzcQB+AIt0AAZGb3JtYXRxAH4AkHVxAH4AhQAAAAFxAH4AqnNxAH4Ai3QADFNlcmlhbGl6YWJsZXNxAH4AjnNxAH4AkXVxAH4AlAAAAAJzcQB+AJZ0AAVzY2FsYXEAfgCfc3EAfgCLcQB+ALVzcQB+AI5zcQB+AJF1cQB+AJQAAAADc3EAfgCWcQB+AKdzcQB+AJZ0AAJpb3EAfgCfc3EAfgCLdAAHUHJvZHVjdHEAfgC2c3EAfgCLdAAGRXF1YWxzcQB+ALZzcQB+AIt0AAZPYmplY3RxAH4Ao3NxAH4Ai3QAA0FueXEAfgC2dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAFdmlld3NzcQB+AMx0AAp2aWV3cy5odG1sc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFr4MzdQnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTNQlcMi6dbQbiGkH0+zfuNMxhG1Q==
+external apis:
+0 items
+source infos:
+14 items
+/Users/saksham/Downloads/bitapi/app/Module.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/app/controllers/test.scala -> 
+AAAAAwAAAQAAADgAPyAgICB2YWwgYW1hem9uUzNDbGllbnQgPSBuZXcgQW1hem9uUzNDbGllbnQoeW91ckFXU0NyZWRlbnRpYWxzKQEAAAeCAQAAABkBABkgICAgICAgICAgICAgICAgICAgICAgICAgAQA6L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS9hcHAvY29udHJvbGxlcnMvdGVzdC5zY2FsYQEAOi9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvYXBwL2NvbnRyb2xsZXJzL3Rlc3Quc2NhbGEAcWNvbnN0cnVjdG9yIEFtYXpvblMzQ2xpZW50IGluIGNsYXNzIEFtYXpvblMzQ2xpZW50IGlzIGRlcHJlY2F0ZWQ6IHNlZSBjb3JyZXNwb25kaW5nIEphdmFkb2MgZm9yIG1vcmUgaW5mb3JtYXRpb24uAQAAAQAAAG8APyAgICB2YWwgYW1hem9uUzNDbGllbnQgPSBuZXcgQW1hem9uUzNDbGllbnQoeW91ckFXU0NyZWRlbnRpYWxzKQEAAA9VAQAAABkBABkgICAgICAgICAgICAgICAgICAgICAgICAgAQA6L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS9hcHAvY29udHJvbGxlcnMvdGVzdC5zY2FsYQEAOi9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvYXBwL2NvbnRyb2xsZXJzL3Rlc3Quc2NhbGEAcWNvbnN0cnVjdG9yIEFtYXpvblMzQ2xpZW50IGluIGNsYXNzIEFtYXpvblMzQ2xpZW50IGlzIGRlcHJlY2F0ZWQ6IHNlZSBjb3JyZXNwb25kaW5nIEphdmFkb2MgZm9yIG1vcmUgaW5mb3JtYXRpb24uAQAAAQAAAKIAPyAgICB2YWwgYW1hem9uUzNDbGllbnQgPSBuZXcgQW1hem9uUzNDbGllbnQoeW91ckFXU0NyZWRlbnRpYWxzKQEAABRfAQAAABkBABkgICAgICAgICAgICAgICAgICAgICAgICAgAQA6L1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS9hcHAvY29udHJvbGxlcnMvdGVzdC5zY2FsYQEAOi9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvYXBwL2NvbnRyb2xsZXJzL3Rlc3Quc2NhbGEAcWNvbnN0cnVjdG9yIEFtYXpvblMzQ2xpZW50IGluIGNsYXNzIEFtYXpvblMzQ2xpZW50IGlzIGRlcHJlY2F0ZWQ6IHNlZSBjb3JyZXNwb25kaW5nIEphdmFkb2MgZm9yIG1vcmUgaW5mb3JtYXRpb24uAQAAAAA=
+/Users/saksham/Downloads/bitapi/app/controllers/try.scala -> 
+AAAAAQAAAQAAAPEAPSAgdmFsIGFtYXpvblMzQ2xpZW50ID0gbmV3IEFtYXpvblMzQ2xpZW50KHlvdXJBV1NDcmVkZW50aWFscykBAAAZvAEAAAAXAQAXICAgICAgICAgICAgICAgICAgICAgICABADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL2FwcC9jb250cm9sbGVycy90cnkuc2NhbGEBADkvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL2FwcC9jb250cm9sbGVycy90cnkuc2NhbGEAcWNvbnN0cnVjdG9yIEFtYXpvblMzQ2xpZW50IGluIGNsYXNzIEFtYXpvblMzQ2xpZW50IGlzIGRlcHJlY2F0ZWQ6IHNlZSBjb3JyZXNwb25kaW5nIEphdmFkb2MgZm9yIG1vcmUgaW5mb3JtYXRpb24uAQAAAAA=
+/Users/saksham/Downloads/bitapi/app/filters/ExampleFilter.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/app/services/ApplicationTimer.scala -> 
+AAAAAgAAAQAAABwASCAgTG9nZ2VyLmluZm8ocyJBcHBsaWNhdGlvblRpbWVyIGRlbW86IFN0YXJ0aW5nIGFwcGxpY2F0aW9uIGF0ICRzdGFydC4iKQEAAAQHAQAAAAkBAAkgICAgICAgICABAEMvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL2FwcC9zZXJ2aWNlcy9BcHBsaWNhdGlvblRpbWVyLnNjYWxhAQBDL1VzZXJzL3Nha3NoYW0vRG93bmxvYWRzL2JpdGFwaS9hcHAvc2VydmljZXMvQXBwbGljYXRpb25UaW1lci5zY2FsYQCVbWV0aG9kIGluZm8gaW4gb2JqZWN0IExvZ2dlciBpcyBkZXByZWNhdGVkIChzaW5jZSAyLjcuMCk6IENyZWF0ZSBhbiBpbnN0YW5jZSBvZiB2aWEgTG9nZ2VyKC4uLikgYW5kIHVzZSB0aGUgc2FtZS1uYW1lZCBtZXRob2QuIE9yIHVzZSBTTEY0SiBkaXJlY3RseS4BAAABAAAAJABqICAgIExvZ2dlci5pbmZvKHMiQXBwbGljYXRpb25UaW1lciBkZW1vOiBTdG9wcGluZyBhcHBsaWNhdGlvbiBhdCAke2Nsb2NrLmluc3RhbnR9IGFmdGVyICR7cnVubmluZ1RpbWV9cy4iKQEAAAWYAQAAAAsBAAsgICAgICAgICAgIAEAQy9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvYXBwL3NlcnZpY2VzL0FwcGxpY2F0aW9uVGltZXIuc2NhbGEBAEMvVXNlcnMvc2Frc2hhbS9Eb3dubG9hZHMvYml0YXBpL2FwcC9zZXJ2aWNlcy9BcHBsaWNhdGlvblRpbWVyLnNjYWxhAJVtZXRob2QgaW5mbyBpbiBvYmplY3QgTG9nZ2VyIGlzIGRlcHJlY2F0ZWQgKHNpbmNlIDIuNy4wKTogQ3JlYXRlIGFuIGluc3RhbmNlIG9mIHZpYSBMb2dnZXIoLi4uKSBhbmQgdXNlIHRoZSBzYW1lLW5hbWVkIG1ldGhvZC4gT3IgdXNlIFNMRjRKIGRpcmVjdGx5LgEAAAAA
+/Users/saksham/Downloads/bitapi/app/services/Counter.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/controllers/routes.java -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/Routes.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/routes/main/router/RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/index.template.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/main.template.scala -> 
+AAAAAAAAAAA=
+/Users/saksham/Downloads/bitapi/target/scala-2.12/twirl/main/views/html/welcome.template.scala -> 
+AAAAAAAAAAA=
+compilations:
+12 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+C3Xvd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+C4BLl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+C4zCR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+C7vN51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DEbWR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DE/e51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DHUfp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DH6811cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DIvuh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DJAPB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DLAYN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABa+DM3UJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9Vc2Vycy9zYWtzaGFtL0Rvd25sb2Fkcy9iaXRhcGkvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=

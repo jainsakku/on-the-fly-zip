@@ -1,0 +1,6 @@
+GET    /task/upload               controllers.s3Service.upload
+
+GET   /task/Download/:path         controllers.s3Service.Download(path:String)
+
+GET /task/s3download                     controllers.JsonDownload.zip1()
+GET   /task/s3upload                     controllers.JsonDownload.s3FileUpload()
