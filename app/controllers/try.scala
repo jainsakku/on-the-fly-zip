@@ -234,9 +234,10 @@ def s3FileUpload()= Action {
   )
   var count=0
   var buffer = new Array[Byte](1024)
-  val bucketName = "bxbd-subodh"
-  val AWS_ACCESS_KEY = "AKIAVKW6ETGXM3PXMS4J"
-  val AWS_SECRET_KEY = "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"
+  val bucketName = "BUCKET NAME"  //BUCKET FROM THE FOLDER IS DOWNLOADED
+
+  val AWS_ACCESS_KEY = "AWS ACCESS KEY"
+  val AWS_SECRET_KEY = "AWS SECRET KEY"
   val yourAWSCredentials = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY)
   val amazonS3Client = new AmazonS3Client(yourAWSCredentials)
 
